@@ -28,6 +28,12 @@ Coming soon.
 If you find our work helpful for your research, please consider citing our work.   
 
 ```bibtex
+@article{li2025irg-motionllm,
+  title={IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement for Text-to-Motion Generation},
+  author={Li, Yuan-Ming and Yang, Qize and Lei, Nan and Fu, Shenghao and Zeng, Ling-An and Hu, Jian-Fang and Wei, Xihan and Zheng, Wei-Shi},
+  journal={arXiv preprint arXiv:2512.10730},
+  year={2025}
+}
 ```
 
 ## 📜 License
