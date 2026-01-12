@@ -126,6 +126,9 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WO
 
 ```
 
+### 📈 Serving as Text-Motion Alignment Assessor
+Coming Soon
+
 ### ✒️ Citation
 
 If you find our work helpful for your research, please consider citing our work.   
