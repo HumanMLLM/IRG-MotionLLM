@@ -12,7 +12,15 @@
 Recent advances in motion-aware large language models have shown remarkable promise for unifying motion understanding and generation tasks. However, these models typically treat understanding and generation separately, limiting the mutual benefits that could arise from interactive feedback between tasks. In this work, we reveal that motion assessment and refinement tasks act as crucial bridges to enable bidirectional knowledge flow between understanding and generation. Leveraging this insight, we propose Interleaved Reasoning for Motion Generation (IRMoGen), a novel paradigm that tightly couples motion generation with assessment and refinement through iterative text-motion dialogue. To realize this, we introduce IRG-MotionLLM, the first model that seamlessly interleaves motion generation, assessment, and refinement to improve generation performance.
 
 ## 🏠Model Zoo
-Coming soon.
+| Stages | Ckpt on HumanML3D | Ckpts on KIT-ML |
+|---------|----------|----------|
+| Base Model | [Motion-Agent Offical Link](https://github.com/szqwu/Motion-Agent/tree/main) |[Coming Soon]() |
+| Stage-1 | [Coming Soon]() | [Coming Soon]() |
+| Stage-2 | [Coming Soon]() |[Coming Soon]() |
+| Stage-3 | [Coming Soon]() |[Coming Soon]() |
+
+
+
 
 ## ⛰️Get Started
 ### Build Environment
