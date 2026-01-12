@@ -14,11 +14,54 @@ Recent advances in motion-aware large language models have shown remarkable prom
 ## 🏠Model Zoo
 Coming soon.
 
-## ⛰️Get Ready
+## ⛰️Get Started
+### Build Environment
+```
+conda create -n irg_motionllm python=3.10
+conda activate irg_motionllm
+pip install -r requirements.txt
+```
+
+### Download Glove and extractor
+Download evaluation models and gloves for evaluation.
+```
+bash prepare/download_glove.sh
+bash prepare/download_extractor.sh
+```
+
+### Prepare LLM and Base Model
+We build our base model based on [Motion-Agent](https://github.com/szqwu/Motion-Agent/tree/main). For a quick start, please download the foundational LLM (Gemma2-2b-it) from [HuggingFace](https://huggingface.co/google/gemma-2-2b) and use the following script to download the pre-trained base model. 
+
+```
+bash prepare/download_motionllm_ckpt.sh
+```
+
+Note that you can also train the base model on your own.
+
+### Prepare the SFT and RL data 
 Coming soon.
 
 ## 🔥Training
-Coming soon.
+### Stage-1
+On stage-1, we train our model on eight related tasks to endow the model with the meta abilities of motion understanding, motion generation, motion assessment and motion refinement.
+```
+cd SFT
+bash train_stage1.sh
+```
+
+### Stage-2
+On stage-2, we train our model on IRMoGen data to explicit interleave motion generation, asssessment and refinement.
+```
+cd SFT
+bash train_stage2.sh
+```
+
+### Stage-3
+On stage-3, we further enhance the IRMoGen ability via GRPO.
+```
+cd RL/src/mogen_r1/src
+bash train_stage3.sh
+```
 
 ## 📏Evaluation
 Coming soon.
