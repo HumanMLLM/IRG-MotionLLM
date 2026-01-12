@@ -134,8 +134,8 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WO
 
 ```
 
-### 🧠 Serving as Text-Motion Alignment Assessor
-IRG-MotionLLM can also serve as a Text-Motion Alignment Assessor. You can calculate the alignment score by using the following scripts.
+### 🧠 Serving as a Reward Model
+IRG-MotionLLM can also serve as a reward model to evaluate the text-motion alignment. You can calculate the alignment score by using the following scripts.
 
 ```
 cd SFT/HumanML3D
