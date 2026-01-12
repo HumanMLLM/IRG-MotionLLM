@@ -42,24 +42,35 @@ Note that you can also train the base model on your own.
 Coming soon.
 
 ## 🔥Training
+You can train your own IRG-MotionLLM by using the following scripts. Do remember to replace ambiguous paths to the exact paths to your dataset and pre-trained models. 
+
 ### Stage-1
 On stage-1, we train our model on eight related tasks to endow the model with the meta abilities of motion understanding, motion generation, motion assessment and motion refinement.
 ```
-cd SFT
+cd SFT/HumanML3D
+bash train_stage1.sh
+
+cd SFT/KIT-ML
 bash train_stage1.sh
 ```
 
 ### Stage-2
 On stage-2, we train our model on IRMoGen data to explicit interleave motion generation, asssessment and refinement.
 ```
-cd SFT
+cd SFT/HumanML3D
+bash train_stage2.sh
+
+cd SFT/KIT-ML
 bash train_stage2.sh
 ```
 
 ### Stage-3
 On stage-3, we further enhance the IRMoGen ability via GRPO.
 ```
-cd RL/src/mogen_r1/src
+cd RL/HumanML3D/src/mogen_r1/src
+bash train_stage3.sh
+
+cd RL/KIT-ML/src/mogen_r1/src
 bash train_stage3.sh
 ```
 
