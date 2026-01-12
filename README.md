@@ -78,7 +78,53 @@ bash train_stage3.sh
 ```
 
 ## 📏Evaluation
-Coming soon.
+You can evaluate the IRG-MotionLLM by using the following scripts. Do remember to replace ambiguous paths to the exact paths to your dataset and pre-trained models. 
+
+### Stage-1 Model
+```
+cd SFT/HumanML3D
+
+# 1️⃣ Direct Text-to-Motion Generation
+torchrun --nproc_per_node 1 test_unified.py --llm-ckpt /PATH/TO/YOUR/STAGE-1/MODEL  --eval-task direct_generation-instructed_refinement --eval-batch-size 8 --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora
+
+# 2️⃣ Direct Text-to-Motion Generation + Refinement Instructing + Instructed Refinement
+torchrun --nproc_per_node 1 test_unified.py --llm-ckpt /PATH/TO/YOUR/STAGE-1/MODEL  --eval-task direct_generation-instructed_refinement --eval-batch-size 8 --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora
+
+# 3️⃣ Motion-to-Text Captioning
+torchrun --nproc_per_node 1 test_unified_m2t.py --llm-ckpt /PATH/TO/YOUR/STAGE-1/MODEL --eval-task m2t --eval-repeat-times 1 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-batch-size 32
+```
+
+### Stage-2 and Stage-3 Models
+```
+cd SFT/HumanML3D
+
+ARG_WORLD_SIZE=${1:-4}
+ARG_NPROC_PER_NODE=${2:-8}
+ARG_MASTER_ADDR="127.0.0.1"
+ARG_MASTER_PORT=23555
+ARG_RANK=0
+
+# Multiple conditions
+if [ ! -n "$WORLD_SIZE" ] || [ ! -n "$NPROC_PER_NODE" ]; then
+    WORLD_SIZE=$ARG_WORLD_SIZE
+    NPROC_PER_NODE=$ARG_NPROC_PER_NODE
+fi
+if [ ! -n "$MASTER_ADDR" ] || [ ! -n "$MASTER_PORT" ] || [ ! -n "$RANK" ]; then
+    MASTER_ADDR=$ARG_MASTER_ADDR
+    MASTER_PORT=$ARG_MASTER_PORT
+    RANK=$ARG_RANK
+fi
+
+echo "WORLD_SIZE: $WORLD_SIZE"
+echo "NPROC_PER_NODE: $NPROC_PER_NODE"
+
+# 1️⃣ MAIN EVALUATION: Interleaved Reasoning for Text-to-Motion Generation
+ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT test_unified.py --llm-ckpt PATH/TO/YOUR/MODEL --eval-task unified_mogen_cot_v3 --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag REPEAT_20
+
+# 2️⃣ ROBUSTNESS EVALUATION: Randomly Replace the first generated motion into a random one to evaluate the robustness of the model
+ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT test_unified.py --llm-ckpt PATH/TO/YOUR/MODEL  --eval-task unified_mogen_cot_v3_random_flip --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag RandomFlip_REPEAT_20  --dataset-return-neg-motion
+
+```
 
 ### ✒️ Citation
 
