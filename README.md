@@ -126,8 +126,18 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WO
 
 ```
 
-### 📈 Serving as Text-Motion Alignment Assessor
-Coming Soon
+### 🧠 Serving as Text-Motion Alignment Assessor
+IRG-MotionLLM can also serve as a Text-Motion Alignment Assessor. You can calculate the alignment score by using the following scripts.
+
+```
+cd SFT/HumanML3D
+
+# Stage-1 Model
+torchrun --nproc_per_node=1 test_alignment_score_calculation_s1.py --llm-ckpt PATH/TO/YOUR/STAGE-1-MODEL  --eval-task unified_mogen_cot_v3 --eval-repeat-times 1 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag debug
+
+# Stage-2 and Stage-3 Model
+torchrun --nproc_per_node=1 test_alignment_score_calculation_s2_s3.py --llm-ckpt PATH/TO/YOUR/STAGE-2_3-MODEL  --eval-task unified_mogen_cot_v3 --eval-repeat-times 1 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag debug
+```
 
 ### ✒️ Citation
 
