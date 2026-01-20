@@ -49,7 +49,7 @@ Note that you can also train the base model on your own.
 ### Prepare the Motion Datasets
 In our work, we mainly conduct experiments on the HumanML3D and KIT-ML datasets. Please refer to [this link](https://github.com/EricGuo5513/HumanML3D) for motion dataset preparations.
 
-### Prepare the Annotations of SFT and RL data 
+### Prepare the Annotations of SFT and RL Data 
 Coming soon.
 
 ## 🔥Training
