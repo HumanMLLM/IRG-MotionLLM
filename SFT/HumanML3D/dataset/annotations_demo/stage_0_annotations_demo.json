@@ -1,0 +1,95 @@
+{
+    "info": {},
+    "annotations": [
+        {
+            "id": 0,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "02471",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "A human walks with the hands on the hips, looks on her watch, bends down and continues walking."
+                ]
+            },
+            "task": "t2m_direct_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<MotionAgent_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<MotionAgent_Mogen_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "02261",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "A person doing sport by climbing up a ladder and hanging at a bar."
+                ]
+            },
+            "task": "t2m_direct_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<MotionAgent_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<MotionAgent_Mogen_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "03077",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "A person who is laughing hard."
+                ]
+            },
+            "task": "t2m_direct_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<MotionAgent_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<MotionAgent_Mogen_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        }
+    ]
+}
