@@ -54,7 +54,7 @@ class Text2MotionDataset(data.Dataset):
         for f in self.data_json_files:
             self.all_insts += json.load(open(f, 'r'))['annotations']
         self.motion_meta_data = {'humanml3d': {}}
-        self.motion_meta_data['humanml3d']['data_root'] = '/mnt/data1/yuanming/datasets/HumanML3D_guo'
+        self.motion_meta_data['humanml3d']['data_root'] = '/YOUR/DATASET/TO/HumanML3D_guo'
         self.motion_meta_data['humanml3d']['motion_dir'] = pjoin(self.motion_meta_data['humanml3d']['data_root'], 'new_joint_vecs')
         self.motion_meta_data['humanml3d']['text_dir'] = pjoin(self.motion_meta_data['humanml3d']['data_root'], 'texts')
         self.motion_meta_data['humanml3d']['joints_num'] = 22
@@ -67,7 +67,7 @@ class Text2MotionDataset(data.Dataset):
         self.motion_meta_data['humanml3d']['mean'] = np.load(pjoin(self.motion_meta_data['humanml3d']['meta_dir'], 'mean.npy'))
         self.motion_meta_data['humanml3d']['std'] = np.load(pjoin(self.motion_meta_data['humanml3d']['meta_dir'], 'std.npy'))
 
-        self.prompt_templates = json.load(open('/mnt/data1/yuanming/Code/Cot-mogen/src/mogen_r1/src/data/prompt_template.json', 'r'))
+        self.prompt_templates = json.load(open('dataset/prompt_template-2.json', 'r'))
         return
 
     def build_context(self, task, conversations):
