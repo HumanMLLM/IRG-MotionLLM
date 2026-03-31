@@ -1,0 +1,16 @@
+ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT train_unified_sft.py \
+ --training-task multitask_shared \
+ --llm-backbone /mnt/data1/yuanming/pretrained_models/gemma-2-2b-it \
+ --resume-llm /mnt/data1/yuanming/Code/Motion_Gen/Motion-Agent/ckpt/motionllm_w_shared_lora.pth \
+ --exp-name exp_5_6-Gemma_2_2b-unified_sft-motionllm_init-full_tuning_clean_1015 \
+ --batch-size 4 \
+ --epochs-start-val 0 \
+ --epochs-val-interval 1000 \
+ --epochs-unified 30 \
+ --wo-scale-lr \
+ --learning-rate 1e-5 \
+ --val-tasks t2m \
+ --prompt-w-response \
+ --data-json-files /PATH/to/dataset/HumanML3D/stage-1/M2T_motion_caption_annots.json:/PATH/to/dataset/HumanML3D/stage-1/T2M_detailed_prompt_generation_annots.json:/PATH/to/dataset/HumanML3D/stage-1/T2M_direct_generation_annots.json:/PATH/to/dataset/HumanML3D/stage-1/T2T_prompt_analysis_annots.json:/PATH/to/dataset/HumanML3D/stage-1/TM2M_direct_refinement_annots.json:/PATH/to/dataset/HumanML3D/stage-1/TM2M_instructed_motion_refinement_annots.json:/PATH/to/dataset/HumanML3D/stage-1/TM2T_assessment_analysis_annots.json:/PATH/to/dataset/HumanML3D/stage-1/TM2T_refinement_instruction_annots.json \
+ --full-tuning \
+ --save-frequency 3 \

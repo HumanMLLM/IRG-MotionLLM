@@ -1,0 +1,19 @@
+ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT train_unified_sft.py \
+    --training-task multitask_shared \
+    --llm-backbone /mnt/data1/yuanming/pretrained_models/gemma-2-2b-it \
+    --resume-llm /mnt/data1/yuanming/Code/Motion_Gen/MotionLLM_Unified_SFT/experiments/exp_5_6-Gemma_2_2b-unified_sft-motionllm_init-full_tuning_clean_1015/motionllm_unified_sft_epoch8.pth \
+    --exp-name debug\
+    --batch-size 1 \
+    --epochs-start-val 0 \
+    --epochs-val-interval 1000 \
+    --epochs-unified 20 \
+    --wo-scale-lr \
+    --learning-rate 1e-5 \
+    --val-tasks t2m \
+    --prompt-w-response \
+    --data-json-files /PATH/to/dataset/HumanML3D/stage-2/sft_motion_assess_cot_v2_seed_42.json:/PATH/to/dataset/HumanML3D/stage-2/sft_motion_assess_cot_v2_seed_43.json \
+    --wo-lora \
+    --ignore-incorrect \
+    --full-tuning \
+    --save-frequency 2 \
+    --wo-answer\
