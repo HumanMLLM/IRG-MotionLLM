@@ -166,7 +166,7 @@ If you find our work helpful for your research, please consider citing our work.
 
 ## 📜 License
 
-- Our models and code are under the Apache License 2.0. Our data is under MIT License.
+- Our models and code are under the Apache License 2.0.
 
 ## Acknowledgement
 We sincerely acknowledge and appreciate the exceptional open-source contributions that form the foundation of our work: [Motion-Agent](https://github.com/szqwu/Motion-Agent/tree/main), [MotionGPT](https://github.com/OpenMotionLab/MotionGPT), [AToM](https://github.com/VincentHancoder/AToM/blob/main), [MARDM](https://github.com/neu-vi/MARDM/tree/main), [Text-to-Motion](https://github.com/EricGuo5513/text-to-motion), [VLM-R1](https://github.com/om-ai-lab/VLM-R1).
