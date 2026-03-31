@@ -1,0 +1,371 @@
+{
+    "info": {
+        "num_instances": "",
+        "time": "2025-09-21 00:24:50"
+    },
+    "annotations": [
+        {
+            "id": 0,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000002",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person is performing a sideways jump to their left. the key components are the action type (jump), the manner of execution (full-body, sideways), and the direction (to the left).",
+                    "a coordinated full-body jump where the person propels themselves laterally to their left with a noticeable airborne phase and a stable landing.",
+                    "a motion involves a deliberate and dynamic sideways leap to the left, engaging the entire body in the execution and maintaining balance upon landing.",
+                    "the motion illustrates a smooth and intentional leftward jump, with synchronous use of arms and legs to execute the lateral movement fully."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000002",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person performs a jump straight to the left, which implies a horizontal displacement without significant upward movement.",
+                    "the motion captures a horizontal jump where the body propels straight to the left with minimal vertical height and a clear lateral trajectory.",
+                    "a person performs a leftward leap featuring a notable horizontal shift while minimizing any upward motion.",
+                    "a jump directed straight to the left, focusing on horizontal movement with a low vertical component."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000003",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a motion involving lifting an object from the person's left side and placing it down on the person's right side, creating a smooth transfer from left to right.",
+                    "a person picks up an object from their left side, transitions it horizontally, and carefully places it down on their right side, ensuring a smooth and fluid transfer throughout.",
+                    "a motion that involves initiating the lift of an object from the left side, maintaining a steady and controlled movement as the object moves across to the right side, and completing the action with an intentional placement.",
+                    "a motion unfolds in distinct stages: lifting the object on the left, smoothly transitioning it across the body, and setting it down with precision on the right."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000003",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person transfers an object from their front left to their front right. the motion involves an initial \"pick up\" action on the left, a \"move\" or \"carry\" action across the body, and a final \"place\" action on the right. the feet must remain stationary throughout the entire sequence, implying the movement must come from the torso and arms.",
+                    "a motion starts with the person's arms initiating a pickup action from their front left, followed by a smooth, controlled cross-body movement, and concludes with placing the object down on the right while the lower body and feet remain completely still.",
+                    "a motion involves a sequence where the object is first retrieved from the left side, then transported gracefully across the body, and finally set down on the right, all while ensuring the legs and feet remain stationary throughout.",
+                    "a motion sequence includes a deliberate pickup from the left, a transitional carry that crosses the torso, and a deliberate placement on the right, with all lower-body movement restricted to maintain foot stability."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000003",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person is standing in a fixed position and performs a sequence: first, bending or reaching to their left to pick up an object using both hands; second, transferring that object across their body; and third, placing the object down on their right side.",
+                    "the motion emphasizes a stationary stance, initiating with a full-body lean or reach to the left to grasp the object using both hands, followed by a deliberate and visible transfer of the object across the body, finishing with its placement on the right side.",
+                    "a person maintains a stable standing position while performing three key actions: first, reaching toward the left to pick up an item, second, moving the item across the torso, and finally, placing it carefully on the right.",
+                    "the motion focuses on a stationary stance, where a person bends or reaches leftward to secure an item with both hands, smoothly transitions the object across their body, and places it down to their right side."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000004",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person mimics a chicken. this requires two main simultaneous or sequential actions: a repetitive downward motion of the head and torso to simulate \"pecking at the ground,\" and a flapping or waving motion of the arms to simulate wings.",
+                    "a motion features a rhythmic head and torso movement in a downward trajectory resembling ground-pecking, accompanied by flapping arm gestures that emulate wing movements, all performed in a continuous and playful manner.",
+                    "a motion with synchronized head-and-torso dipping actions and repetitive, bird-like arm flaps to convey the essence of a chicken's demeanor.",
+                    "a motion that displays a dynamic combination of repetitive pecking motions with the upper body and lively wing-like flapping of the arms."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000004",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person imitates a chicken. the key elements are a specific upper-body posture with arms pointed up and hands on the chest to mimic wings, combined with a pecking motion involving the head and upper torso bending forward.",
+                    "a motion that achieves an expressive chicken-like posture, with the arms bent and hands positioned near the chest to resemble wings, complemented by a rhythmic pecking movement where the head and upper torso lean forward repeatedly.",
+                    "the motion recreates a chicken's iconic body language: arms angled upwards with hands resting on the chest to mimic wings, and a dynamic forward nodding gesture driven by the head and upper torso.",
+                    "the motion features a raised arm-wing position with hands placed at the chest and involves a distinct pecking action characterized by forward bending of the head and upper body."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000004",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a motion that combines three specific elements: a forward bend at the waist, a particular arm posture where hands are tucked into the armpits, and a flapping motion of the elbows moving up and down.",
+                    "a motion that seamlessly integrates three key actions: a forward lean at the waist, arms positioned with hands tucked securely under the armpits, and synchronized, repetitive flapping movements of the elbows rising and lowering.",
+                    "a motion that blends a forward waist bend, arms arranged with hands fitted into the armpits, and a dynamic, rhythmic flapping of the elbows in a smooth and simultaneous manner.",
+                    "a motion requires a coordinated combination of bending forward at the waist, positioning the hands under the armpits, and producing a repetitive up-and-down wavelike flap of the elbows in a harmonious sequence."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000005",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a sequence of three distinct actions: first, the person walks slowly straight forward. second, the person changes direction and walks toward their left. third, the person stops walking and stands still, facing the left direction.",
+                    "the motion sequence begins with a deliberate, controlled forward walk, followed by a smooth directional shift to the left, and concludes with a stationary stance while the person faces left.",
+                    "a motion transitions from a slow, straight forward walk to a seamless turn leftward, ending in a stable posture oriented to the left.",
+                    "a motion starts with a measured forward movement, moves fluidly into a turn and walk to the left, and finishes with the person fixed in a standing position, facing left."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000005",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person is walking forward at an angle to the right. the key components are the action \"walking forward\" and the direction \"on an angle to the right\".",
+                    "a person moves forward in a natural walking pattern while gradually veering to the right, maintaining a smooth directional change.",
+                    "a steady walking motion is combined with a deliberate, angled path that guides the character's trajectory forward and slightly to the right.",
+                    "a forward walking behavior with an intentional lean or drift towards the right, creating a diagonal progression."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000005",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a motion of a person walking simultaneously forward and to the left, resulting in a diagonal trajectory.",
+                    "a motion demonstrates a clear diagonal pathway, combining forward and leftward movement with steady, coordinated leg and arm gestures to maintain dynamic balance.",
+                    "a person walks in a forward-left direction, with the legs and arms swinging naturally to support the diagonal trajectory.",
+                    "a motion shows fluid movement that combines forward locomotion with a leftward shift, resulting in a smooth diagonal stride."
+                ]
+            },
+            "task": "t2m_detailed_prompt_generation",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Text2Motion_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Motion>"
+                }
+            ]
+        }
+    ]
+}

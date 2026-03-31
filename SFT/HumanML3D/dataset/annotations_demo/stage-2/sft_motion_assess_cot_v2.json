@@ -1,0 +1,1832 @@
+{
+    "info": {
+        "datetime": "2025-10-19 00:37:25",
+        "num_annotations": ""
+    },
+    "annotations": [
+        {
+            "id": 0,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000002",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M002664",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009781",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "001724",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M002196",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man full-body sideways jumps to his left.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a full-body motion of a person performing a sideways jump to their left. The key components are the action type (jump), the manner of execution (full-body, sideways), and the direction (to the left).",
+                            "The motion should depict a coordinated full-body jump where the person propels themselves laterally to their left with a noticeable airborne phase and a stable landing.",
+                            "The movement must involve a deliberate and dynamic sideways leap to the left, engaging the entire body in the execution and maintaining balance upon landing.",
+                            "To satisfy the goal, the motion should illustrate a smooth and intentional leftward jump, with synchronous use of arms and legs to execute the lateral movement fully."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion of a man performing a full-body sideways jump to his left perfectly aligns with the goal text.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion, which involves a person raising their right hand and pointing forward, completely fails to match the prompt. The core action of a 'full-body sideways jump to the left' is absent.",
+                            "refinement": "Replace the static arm gesture with a dynamic jumping motion. The jump should be directed laterally to the person's left and involve the entire body for propulsion, not just the arms."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion is a left-handed punch, which completely misinterprets the prompt's request for a full-body sideways jump to the left. The core action of jumping and the sideways movement are entirely absent.",
+                            "refinement": "Replace the punching motion with a jumping action. The jump must be a full-body movement directed sideways to the left, not just an arm action."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the movement to the left but fails to execute a jump. Instead of a full-body jump, the person takes a quick step to the side, seemingly as a reaction to being pushed, which is not part of the prompt.",
+                            "refinement": "Replace the stepping motion with a jump. The person should propel their body to the left so that both feet leave the ground simultaneously. Ensure the action is self-initiated and involves the full body, not just a simple step."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures the sideways movement to the left. However, the action is described as a 'hop', which implies a lighter, possibly one-footed movement, not fully aligning with the more powerful 'full-body jump' specified in the prompt.",
+                            "refinement": "Change the motion from a light hop to a more powerful, two-footed jump. Increase the involvement of the arms and torso to generate momentum, making it a clear 'full-body' action."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000002",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M002664",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009781",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "001724",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M002196",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person jumps straight to the left.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person performing a jump. The key elements are the action itself, which is a \"jump\", and the specific direction, which is \"straight to the left\". This implies a horizontal displacement without significant upward movement.",
+                            "The motion should capture a horizontal jump where the body propels straight to the left with minimal vertical height and a clear lateral trajectory.",
+                            "A proper execution involves a leftward leap featuring a notable horizontal shift while minimizing any upward motion.",
+                            "The generated motion must emphasize a jump directed straight to the left, focusing on horizontal movement with a low vertical component."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures a full-body sideways jump to the left, fully aligning with the goal.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person raising their right arm and pointing forward, which completely misaligns with the prompt's request for a jump to the left. The action, body parts involved, and direction are all incorrect.",
+                            "refinement": "Replace the arm-raising gesture with a full-body jump. The direction of the jump should be straight to the person's left."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person performing a left-handed punch or jab. This completely misses the requested action of jumping and the full-body lateral movement to the left.",
+                            "refinement": "Replace the punching motion with a full-body jump. The direction of the jump should be straight to the left, involving the legs and overall body displacement."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the lateral movement to the left, but it portrays a step or a shuffle, possibly as a reaction to being pushed, rather than the intended 'jump'. The key action of leaving the ground with both feet simultaneously is missing.",
+                            "refinement": "Replace the stepping or shuffling motion with a clear jump. The person should initiate the movement by bending their knees and pushing off the ground with both feet, moving sideways to the left while airborne before landing."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion is a hop to the left, which is a less powerful, one-footed action compared to the requested jump. There's also a conflicting description indicating movement to the right, suggesting some ambiguity in the motion's direction.",
+                            "refinement": "Change the motion from a one-footed hop to a two-footed jump. Ensure the jump is decisively and consistently directed straight to the left."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000003",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "012590",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011601",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M000800",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "012960",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man lifts something on his left and places it down on his right.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion involving a specific transfer action. The key elements are: 1) lifting an object, 2) initiating the lift from the person's left side, 3) placing the object down, and 4) completing the placement on the person's right side. The overall motion should be a smooth transfer from left to right.",
+                            "The motion should involve a seamless sequence where the person picks up an object from their left side, transitions it horizontally, and carefully places it down on their right side, ensuring a smooth and fluid transfer throughout.",
+                            "The key to capturing this motion lies in initiating the lift of an object from the left side, maintaining a steady and controlled movement as the object moves across to the right side, and completing the action with an intentional placement.",
+                            "A successful execution requires the motion to unfold in four distinct yet connected stages: lifting the object on the left, smoothly transitioning it across the body, and setting it down with precision on the right."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt. A man is shown standing in place, picking up an unseen object from his left with both hands, and placing it down on his right.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person shuffling or running forward in a defensive pose. This completely misinterprets the prompt, as it lacks the core actions of lifting an object from the left and placing it on the right.",
+                            "refinement": "Replace the defensive shuffling with a motion where the person bends or reaches to their left side, performs a lifting action, moves their arms across their body to the right, and then performs a placing action on the right side."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person throwing or slapping something forward with their right hand. This fundamentally misunderstands the prompt, which requires a lifting action initiated on the left and a placing action on the right.",
+                            "refinement": "Change the action from a single forward throw/slap to a two-part motion. The person should first bend or reach to their left to lift an object, then move it across their body and place it down on their right."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly depicts the action of lifting and placing an object. However, the direction is incorrect. Instead of lifting from the left and placing on the right, the motion shows an object being moved from right to left and then back to the right.",
+                            "refinement": "Modify the motion to start with lifting an object from the person's left side. Then, have the person turn or move their torso to transfer the object across their body and place it down on their right side. The motion should conclude after placing the object on the right."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures the action of lifting an object with two hands and placing it down on the right side. However, it does not show the object being initially picked up from the left, which is a key part of the prompt.",
+                            "refinement": "Adjust the start of the motion so the person first reaches or bends to their left to pick up the object, then proceeds to lift it and place it down on the right."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000003",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "012590",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011601",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M000800",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "012960",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man picks up an unseen object to his front left and moves it to an unseen platform on this front right without moving his feet.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a person transfers an object from their front left to their front right. The key components are: 1) an initial \"pick up\" action on the left, 2) a \"move\" or \"carry\" action across the body, 3) a final \"place\" action on the right, and 4) a critical constraint that the feet must remain stationary throughout the entire sequence, implying the movement must come from the torso and arms.",
+                            "The motion must start with the person's arms initiating a pickup action from their front left, followed by a smooth, controlled cross-body movement, and conclude with placing the object down on the right while the lower body and feet remain completely still.",
+                            "A successful motion involves a sequence where the object is first retrieved from the left side, then transported gracefully across the body, and finally set down on the right, all while ensuring the legs and feet remain stationary throughout.",
+                            "The motion sequence should include a deliberate pickup from the left, a transitional carry that crosses the torso, and a deliberate placement on the right, emphasizing that all lower-body movement is restricted to maintain foot stability."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly matches the prompt. It shows a man standing in place, picking up an unseen object from his left with both hands, and then placing it down on his right without moving his feet.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion involves a person shuffling and stepping forward or sideways in a defensive posture. This fails to match the goal, which requires the person to remain stationary, with feet planted, while using their upper body to pick up an object from the front-left and place it to the front-right.",
+                            "refinement": "Replace the stepping and shuffling with a stationary stance. The motion should be an upper-body action: bend and reach to the front-left to 'pick up' an object, then twist the torso to the right to 'place' the object down."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person throwing or slapping something forward with their right hand. This does not match the prompt's sequence of picking up an object from the front-left, moving it across the body, and placing it on the front-right, all while keeping the feet stationary.",
+                            "refinement": "Change the motion from a throw to a two-part action. First, have the person bend and reach to their front-left to pick something up. Second, have them twist their torso to the right and place the object down on their front-right. Ensure the feet do not move throughout the entire motion."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly shows a person lifting and moving an object with two hands without moving their feet. However, the direction of movement is incorrect. Instead of moving the object from the front left to the front right, the motion shows a movement from right to left and then back to the right.",
+                            "refinement": "Adjust the motion so the person picks up the object from their front left, moves it across their body, and places it on a platform to their front right. The feet should remain stationary throughout the entire action."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly shows a person lifting an object with both hands and transferring it to their right side. However, it does not explicitly start the lift from the front left, nor does it guarantee the critical constraint that the person's feet do not move.",
+                            "refinement": "Adjust the motion to start with the person reaching to their front left to pick up the object. The transfer to the right should be executed by twisting the upper body while keeping the feet firmly planted in place."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000003",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "012590",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011601",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M000800",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "012960",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man standing in place picks up something with both hands from his left hand side, and places it down at his right hand side.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person standing in a fixed position. The core action is a sequence: first, bending or reaching to their left to pick up an object using both hands. Second, transferring that object across their body. Third, placing the object down on their right side. Key elements are: stationary position, using both hands, and a clear left-to-right transfer of an object.",
+                            "The motion should emphasize a stationary stance, initiating with a full-body lean or reach to the left to grasp the object using both hands, followed by a deliberate and visible transfer of the object across the body, finishing with its placement on the right side.",
+                            "The required motion involves maintaining a stable standing position while performing three key actions: first, reaching toward the left to pick up an item, second, moving the item across the torso, and finally, placing it carefully on the right.",
+                            "To fulfill the goal, the motion must focus on a stationary stance, ensuring the person bends or reaches leftward to secure an item with both hands, smoothly transitions the object across their body, and places it down to their right side with clarity."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt. The man stands in place, uses both hands to pick up an unseen object from his left, and places it down on his right without moving his feet.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion involves a person shuffling and side-stepping in a defensive pose. This completely misaligns with the prompt, which requires a stationary action of picking up an object from the left and placing it on the right.",
+                            "refinement": "Replace the shuffling and defensive posture entirely. The motion should show the person standing in place, bending to the left to pick up an object with both hands, then turning and placing it down on their right side."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a single-handed, forceful forward action like throwing or slapping, which completely misaligns with the goal of a controlled, two-handed motion of picking something up from the left and placing it on the right.",
+                            "refinement": "Change the action from a single-handed throw to a two-handed motion. The person should reach down to their left side with both hands, perform a picking-up motion, then move their hands across their body to the right side and perform a placing-down motion, all while standing in place."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly shows a person picking up an object with two hands and setting it down. However, it fails to follow the specified path of moving the object from the left side to the right side. The motion seems to involve either placing the object back in its original position or moving it from right to left and back.",
+                            "refinement": "Adjust the motion so the object is picked up from the person's left-hand side, moved across their body, and placed down on their right-hand side. Ensure the movement is a single, direct transfer from left to right."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly shows a person lifting an object with both hands and transferring it to their right side. However, it does not clearly depict the initial action of picking up the object from the left-hand side.",
+                            "refinement": "Adjust the motion to begin with the person reaching or bending to their left to pick up the object before moving it to the right. Ensure the person remains standing in the same spot throughout the action."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000004",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "013457",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011772",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "005718",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M009740",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man is pretending to be a chicken. constantly pecking at the ground and waving his arms like a chicken.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person mimicking a chicken. This requires two main simultaneous or sequential actions: 1) A repetitive downward motion of the head and torso to simulate \"pecking at the ground,\" and 2) A flapping or waving motion of the arms to simulate wings. The overall performance should be continuous and character-driven.",
+                            "The motion should feature a rhythmic head and torso movement in a downward trajectory resembling ground-pecking, accompanied by flapping arm gestures that emulate wing movements, all performed in a continuous and playful manner.",
+                            "A convincing motion requires synchronized head-and-torso dipping actions with repetitive, bird-like arm flaps to convey the essence of a chicken's demeanor.",
+                            "The animation should display a dynamic combination of repetitive pecking motions with the upper body and lively wing-like flapping of the arms, maintaining an engaging and expressive portrayal throughout."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt. The person is shown bending forward at the waist, tucking their hands into their armpits, and moving their elbows up and down to mimic flapping wings, while also performing a pecking motion towards the ground, successfully portraying someone acting like a chicken.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking forward and stopping, which completely fails to capture the requested actions of pretending to be a chicken, such as pecking at the ground and waving arms like wings.",
+                            "refinement": "Replace the walking motion entirely. The person should instead repeatedly bend forward from the waist to simulate pecking the ground while simultaneously flapping their bent arms like chicken wings."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a simple, singular human gesture of raising a hand or waving, which completely fails to capture the requested actions of pretending to be a chicken. The key elements of constantly pecking at the ground and flapping arms are entirely absent.",
+                            "refinement": "Replace the simple hand gesture with a full-body performance. Incorporate continuous, repetitive bending of the torso and head forward to simulate pecking at the ground. Simultaneously, add a flapping motion with both arms, keeping the elbows bent and close to the body."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion shows a person bent forward, holding their stomach and moving slowly, which conveys shyness or discomfort. This does not align with the prompt's goal of pretending to be a chicken, as it lacks the characteristic pecking and arm-flapping motions.",
+                            "refinement": "Replace the slow, stomach-holding posture with energetic, repetitive actions. The person needs to perform a constant pecking motion with their head and upper torso toward the ground. Simultaneously, the arm movement should be changed from holding the stomach to a flapping motion, with elbows bent, to mimic chicken wings."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion successfully captures the arm flapping and repetitive neck bending to mimic a chicken. However, the 'pecking' action is depicted as a general forward neck bend rather than a distinct downward motion aimed at the ground.",
+                            "refinement": "Enhance the neck movement to be a more pronounced downward motion, making the head get closer to the ground to better represent the action of 'pecking at the ground'."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000004",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "013457",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011772",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "005718",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M009740",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "humanoid is acting like a chicken with their arms pointed up and their hands on their chest area, they also were pecking at something",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a person imitates a chicken. The key elements are a specific upper-body posture with arms pointed up and hands on the chest to mimic wings, combined with a pecking motion involving the head and upper torso bending forward.",
+                            "The motion centers around achieving an expressive chicken-like posture, with the arms bent and hands positioned near the chest to resemble wings, complemented by a rhythmic pecking movement where the head and upper torso lean forward repeatedly.",
+                            "The key to this motion is recreating a chicken's iconic body language: arms angled upwards with hands resting on the chest to mimic wings, and a dynamic forward nodding gesture driven by the head and upper torso.",
+                            "To successfully portray a chicken, the motion must feature a raised arm-wing position with hands placed at the chest and involve a distinct pecking action characterized by forward bending of the head and upper body."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures the act of a person pretending to be a chicken. The person bends forward to peck at the ground while tucking their hands into their armpits and flapping their elbows to mimic wings, fully aligning with the prompt.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking forward and stopping. This does not align with the prompt at all, as it completely misses the core actions of acting like a chicken, including the specific arm posture and the pecking motion.",
+                            "refinement": "The motion needs to be completely changed. Instead of walking, the person should hold their arms up with hands near the chest, resembling wings. They should also perform a repetitive forward and downward head movement to simulate pecking."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person raising a hand towards their face, possibly waving, which does not align with the goal of acting like a chicken. It misses the specific arm posture (pointed up, hands on chest) and the pecking action described in the prompt.",
+                            "refinement": "Replace the waving gesture with a chicken-like posture where both arms are bent with elbows pointed up and hands near the chest. Add a repetitive forward and downward bobbing motion of the head and upper torso to simulate pecking."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion shows a person bent forward holding their stomach, which does not align with the prompt of acting like a chicken. It lacks the key elements of raised arms to simulate wings and the characteristic pecking motion.",
+                            "refinement": "Change the arm posture so the elbows are pointed up and the hands are on the chest area to mimic wings. Add a repetitive forward and downward movement of the head and upper torso to simulate a pecking action."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion successfully captures the chicken-like behavior with arm flapping and forward neck bending that resembles pecking. However, it does not match the specific arm posture requested, which is arms pointed up with hands on the chest.",
+                            "refinement": "Adjust the arm posture so that the arms are bent and pointed upwards with the hands placed on the chest area. The flapping motion should be performed from this specific pose, while maintaining the pecking head movement."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000004",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "013457",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "011772",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "005718",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M009740",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person bends forward at the waist while both hands are tucked inside their armpits and elbows move up and down.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion that combines three specific elements: a forward bend at the waist, a particular arm posture where hands are tucked into the armpits, and a flapping motion of the elbows moving up and down. The sequence and simultaneity of these actions are key.",
+                            "The motion should seamlessly integrate three key actions: a forward lean at the waist, arms positioned with hands tucked securely under the armpits, and synchronized, repetitive flapping movements of the elbows rising and lowering.",
+                            "To achieve this motion, there must be a blend of a forward waist bend, arms arranged with hands fitted into the armpits, and a dynamic, rhythmic flapping of the elbows in a smooth and simultaneous manner.",
+                            "This motion requires a coordinated combination of bending forward at the waist, positioning the hands under the armpits, and producing a repetitive up-and-down wavelike flap of the elbows in a harmonious sequence."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt, showing a person bending forward, pecking at the ground, and flapping their elbows with hands tucked into the armpits to imitate a chicken.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking forward and stopping, which does not match the prompt's description of bending forward at the waist with hands tucked in the armpits and elbows moving up and down.",
+                            "refinement": "Replace the walking motion with a stationary pose. The person should bend forward at the waist, tuck their hands into their armpits, and then animate the elbows to move up and down."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person standing and raising a hand to their face or waving, which completely mismatches the prompt's description of bending forward at the waist with hands tucked in armpits and elbows flapping.",
+                            "refinement": "Replace the current standing and waving motion. The person should bend forward at the waist. Both hands need to be tucked into the armpits, and the main action should be the elbows moving up and down."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the person bending forward at the waist. However, it fails to execute the specified arm movements; instead of tucking hands in the armpits and moving elbows up and down, the person holds their stomach or fiddles with their hands.",
+                            "refinement": "Reposition the hands from the stomach area to be tucked inside the armpits. While the person is bent forward, add a continuous up-and-down motion to the elbows."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion captures the chicken-like flapping of the arms, but fails to execute the specific posture and hand placement. The person bends at the neck instead of the waist, and the hands are not tucked into the armpits.",
+                            "refinement": "Adjust the posture to have the person bend forward at the waist. Modify the arm position by tucking the hands into the armpits, and ensure the up-and-down motion is driven by the elbows."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000005",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M000248",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M006380",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "007591",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "011443",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person walks slowly forward then toward the left hand side and stands facing that direction.",
+                        "<Prompt_Analysis>": [
+                            "The goal motion is a sequence of three distinct actions: first, the person walks slowly straight forward. Second, the person changes direction and walks toward their left. Third, the person stops walking and stands still, facing the left direction. The key elements are the initial forward movement, the turn to the left, and the final stationary pose facing left.",
+                            "The sequence must begin with a deliberate, controlled forward walk, followed by a smooth directional shift to the left, and conclude with a stationary stance while the person faces left.",
+                            "The motion should clearly transition from a slow, straight forward walk to a seamless turn leftward, ending in a stable posture oriented to the left.",
+                            "To achieve this, the motion should start with a measured forward movement, move fluidly into a turn and walk to the left, and finish with the person fixed in a standing position, facing left."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The motion shows a person walking slowly forward and then turning to the left before stopping. This aligns well with the prompts describing a walk forward and to the left, but it contradicts the prompt that specifies walking to the right.",
+                            "refinement": "To align with the conflicting prompt, the motion should be mirrored, so the person walks forward and then turns/veers to the right."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion begins with a slow forward walk, which aligns with the prompt's start. However, it then incorporates complex, extraneous actions like walking up and down stairs, stepping over objects, and moving in multiple directions, failing to execute the simple turn to the left and subsequent stop.",
+                            "refinement": "Remove all actions involving stairs, objects, or complex maneuvers like sidestepping and circling. After the initial slow forward walk, the person should simply turn and walk towards the left, then come to a complete stop while facing the left direction."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion partially aligns by showing a person walking slowly forward, but it completely misses the subsequent turn to the left and the final action of stopping to face that new direction.",
+                            "refinement": "After the initial slow forward walk, the person should turn to their left and then come to a complete stop while facing the left."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the slow walking pace. However, the person walks in a continuous arc to the right, instead of walking forward, then turning to the left, and finally stopping to face that new direction.",
+                            "refinement": "Change the direction of the turn from right to left. The path should be a straight walk forward followed by a distinct turn, not a continuous arc. The motion should end with the person standing still, facing left."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures the initial forward walking action but fundamentally fails to align with the prompt by turning to the right instead of the left, and by continuing to walk instead of stopping to stand.",
+                            "refinement": "Change the direction of the turn from right to left. After the turn, the person should come to a complete stop and stand still, facing the new direction. Additionally, adjust the walking pace to be slow."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000005",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M000248",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M006380",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "011443",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "007591",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person walks forward on an angle to the right",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a person is walking. The trajectory is not straight forward, but rather at an angle towards the right. The key components are the action \"walking forward\" and the direction \"on an angle to the right\".",
+                            "The motion must demonstrate a natural walking pattern where the character moves forward while gradually veering to the right, maintaining a smooth directional change.",
+                            "The key is a steady walking motion combined with a deliberate, angled path that guides the character's trajectory forward and slightly to the right.",
+                            "The generated motion should reflect a forward walking behavior with an intentional lean or drift towards the right, creating a diagonal progression."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion is ambiguous, showing a person walking forward with a slight, undefined curve. This vaguely incorporates the conflicting directional instructions of the prompt (forward then left, diagonally right, diagonally left) but fails to execute any single, clear trajectory.",
+                            "refinement": "Refine the motion to follow a single, unambiguous path. For example, to match the 'forward then left' prompt, the person should first walk straight forward, then make a distinct turn to the left and take a few steps before stopping. For a diagonal walk, the person should maintain a consistent diagonal trajectory throughout the movement."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion is a complex sequence involving walking up and down stairs, sidestepping, and turning in circles. This does not align with the simple goal of walking forward at an angle to the right.",
+                            "refinement": "Eliminate the complex actions such as climbing stairs, sidestepping, and turning. Replace them with a continuous forward walk, ensuring the trajectory is consistently angled to the right."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion correctly captures the action of walking forward at a slow pace. However, it fails to incorporate the specific directional instruction 'on an angle to the right', showing a straight forward movement instead.",
+                            "refinement": "Adjust the trajectory of the walk so that the person moves diagonally forward and to the right, instead of just straight forward."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion involves a person walking straight forward and then making a distinct turn to the right, which does not match the prompt's request for a continuous walk 'on an angle to the right'. The motion is a two-part action (walk, then turn) rather than a single diagonal movement.",
+                            "refinement": "Adjust the trajectory of the walk to be a continuous diagonal line, moving forward and to the right simultaneously from the beginning, instead of walking straight and then turning."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion captures the action of walking and the general direction to the right. However, instead of walking in a straight line at an angle, the person walks in a slow, wide arc or curve.",
+                            "refinement": "Adjust the walking path from a slow curve to a straight diagonal line. The person should move forward and to the right simultaneously in a direct trajectory."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000005",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M000248",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M006380",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "011443",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "007591",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person walks diagonally forward and to the left.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person walking. The key constraints are the direction of movement: it must be simultaneously forward and to the left, resulting in a diagonal trajectory.",
+                            "The motion should demonstrate a clear diagonal pathway, combining forward and leftward movement with steady, coordinated leg and arm gestures to maintain dynamic balance.",
+                            "A successful motion involves walking in a forward-left direction, with the legs and arms swinging naturally to support the diagonal trajectory.",
+                            "To fulfill the goal, the motion must show fluid movement that combines forward locomotion with a leftward shift, resulting in a smooth diagonal stride."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion shows a person walking and changing direction, but the path is ambiguous. The movement is not a clear forward walk followed by a left turn, nor is it a distinct diagonal walk to the left or right. This lack of a defined trajectory means it fails to align with any of the specific paths described in the goal.",
+                            "refinement": "To align with the most detailed prompt, the motion needs a clearer trajectory. The person should first walk straight forward for several steps, then make a distinct turn to the left, and finally come to a stop facing the new direction. The path should be composed of two clear linear segments, not a single arc or a vague wander."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion is a complex sequence involving stepping up and down, sidestepping, and turning, which does not match the simple, continuous action of walking diagonally forward and to the left.",
+                            "refinement": "Simplify the motion to only a continuous walk. Remove all changes in elevation (like stepping on stairs) and changes in direction like sidestepping or circling. The trajectory should be consistently forward and to the left."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion captures the action of walking forward, but it fails to incorporate the specified diagonal direction to the left. The person is walking straight forward instead.",
+                            "refinement": "Adjust the direction of the walk from straight forward to a diagonal path that moves both forward and to the left."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly depicts a person walking, but the direction is incorrect. Instead of walking diagonally forward and to the left, the person walks forward and then turns to the right.",
+                            "refinement": "Adjust the trajectory of the walk. Instead of moving forward and then turning right, the person should move in a continuous diagonal line that is both forward and to the left."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person walking forward in an arc to the right. This captures the walking action but completely reverses the specified direction, which should be diagonally forward and to the left.",
+                            "refinement": "Change the direction of movement from forward and to the right to diagonally forward and to the left. Ensure the path is a straight line rather than a wide arc."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000006",
+                            "f_tag": 8.0,
+                            "to_tag": 8.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "008601",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M002991",
+                            "f_tag": 6.0,
+                            "to_tag": 9.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "T_007471",
+                            "f_tag": 0.0,
+                            "to_tag": 4.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "F_006999",
+                            "f_tag": 0.0,
+                            "to_tag": 7.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "person walks up and squats slightly to pose a position",
+                        "<Prompt_Analysis>": [
+                            "The goal motion can be broken down into a sequence of three key actions: first, the person needs to perform a walking motion (\"walks up\"). Second, the person needs to lower their body into a slight squat. Third, this slight squat is held as a pose (\"pose a position\"). The motion requires the integration of locomotion with a specific body posture.",
+                            "The motion consists of three distinct phases: an initial walking movement, followed by a controlled descent into a slight squat, and ending with a pause while holding that squat position.",
+                            "To achieve the desired motion, the person should begin with a walking action, transition smoothly into a mild squat, and finally maintain the squat as a static pose.",
+                            "The sequence should display three steps: first, a forward walking motion; second, a careful lowering into a partial squat; and third, a stable hold in the squatting posture."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt, showing a person walking forward, squatting slightly to stretch with hands on knees, and then turning to the left.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person standing in place and making hand movements, resembling a warm-up or sword practice. This completely misses the key actions of walking up, squatting slightly, and holding a pose.",
+                            "refinement": "The motion should start with the person walking forward a few steps. After stopping, the person needs to perform a slight squat and then hold a static pose, replacing the continuous hand shaking."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion consists of a sequence of upper-body gestures, including reaching, pressing, and swiping with the hands. It completely fails to incorporate the primary actions of walking forward and squatting, which are central to the prompt.",
+                            "refinement": "Remove all the hand and arm gestures. The motion should begin with the person taking a few steps forward. After walking, the person should perform a slight squat and then hold a stable, full-body pose."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion partially aligns by showing a person walking forward, but it completely omits the subsequent actions of squatting slightly and holding a pose.",
+                            "refinement": "After the walking sequence, the person should stop, perform a slight squat, and then hold that position to form a pose."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion captures a slight forward step and ends in a pose with the hands, but it completely misses the essential 'squats slightly' action described in the prompt.",
+                            "refinement": "After the person steps forward, they should perform a slight squat. The final pose should involve holding this squat position, rather than raising the hands."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000006",
+                            "f_tag": 8.0,
+                            "to_tag": 8.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "008601",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M002991",
+                            "f_tag": 6.0,
+                            "to_tag": 9.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "T_007471",
+                            "f_tag": 0.0,
+                            "to_tag": 4.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "F_006999",
+                            "f_tag": 0.0,
+                            "to_tag": 7.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "he move forward then stretch his body, moving his hand and touching his knees with hands and now he turned to the left side.",
+                        "<Prompt_Analysis>": [
+                            "The goal motion is a sequence of four distinct actions: first, the person moves forward. Second, they perform a body stretch. Third, as part of the stretch, their hands touch their knees. Fourth, they turn to the left. The key elements are forward locomotion, a stretching action with a specific hand-to-knee contact, and a final leftward turn.",
+                            "The sequence includes four clearly defined motions: beginning with forward movement, transitioning into a body stretch where hands deliberately touch the knees, and culminating with a smooth, deliberate turn to the left.",
+                            "To achieve this motion, the person must first move forward, execute a precise stretching action where the hands touch the knees, and then conclude the sequence with a controlled leftward turn.",
+                            "The motion involves a combination of four steps: initial forward motion, followed by a stretch that incorporates hands reaching the knees, and concluding with a confident turn toward the left."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt. The person walks forward, performs a slight squat while stretching and touching their knees, and then turns to the left, executing all the described actions in the correct sequence.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person standing in place making arm movements, described as shaking hands or warming up for a racket sport. This does not align with the prompt's sequence of moving forward, stretching to touch the knees, and turning left.",
+                            "refinement": "The motion should begin with the person moving forward. Then, replace the arm shaking with a stretching action where the person bends and touches their knees. Finally, the person should turn their body to the left."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion consists of a series of upper-body hand and arm gestures, such as reaching, pressing, and swiping. It completely misses the key sequence from the prompt: moving forward, stretching the body to touch the knees, and turning to the left.",
+                            "refinement": "Replace the current hand gestures with a sequence of actions. First, make the person move forward. Then, have them bend down to stretch, touching their knees with their hands. Finally, the person should turn their body to the left."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion only partially aligns with the prompt by showing a person moving forward. It completely omits the key actions of stretching the body, touching the knees with the hands, and turning to the left.",
+                            "refinement": "After the initial forward movement, the person should stop, perform a stretching motion by bending down to touch their knees with their hands, and then conclude by turning to their left."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly starts with a slight forward step, but it deviates by having the person raise their hands together instead of bending down to touch their knees. The final action of turning to the left is also missing.",
+                            "refinement": "After the initial forward step, modify the arm movement from raising them up to bending the body down so the hands touch the knees. Conclude the sequence by having the person turn to their left."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000007",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "013170",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "010765",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M000180",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "000864",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man is walking forward, favoring his left leg and shifting his walk. he is possibly drunk.",
+                        "<Prompt_Analysis>": [
+                            "The goal motion is a continuous forward walk characterized by three key mannerisms: a bias or limp that favors the left leg, a generally shifting or unsteady gait, and an overall impression of being drunk.",
+                            "The generated motion should prominently feature an uneven stride with a noticeable bias towards the left leg, combined with an unsteady rhythm that conveys a sense of instability or intoxication.",
+                            "A convincing result will involve a lopsided gait where the weight favors the left leg, paired with swaying or irregular movements along the body's axis to create a drunken appearance.",
+                            "To effectively capture the goal, the motion must exhibit an off-kilter walking pattern, including a characteristic limp favoring the left side, combined with a staggered and disoriented gait that mimics intoxication."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The descriptions of the generated motion are identical to the list of distinct actions provided in the prompt. However, the descriptions themselves are contradictory for a single motion, depicting a drunk/limping walk, walking down stairs, and stepping over an object simultaneously, which is physically impossible. Therefore, while there is a perfect textual match, the generated motion is conceptually incoherent.",
+                            "refinement": "The prompt should be revised to describe a single, coherent action. Either choose one of the three descriptions as the sole goal (e.g., 'a man walks forward, favoring his left leg'), or rewrite them as a sequential action (e.g., 'a drunk man walks, descends a set of stairs, and then steps over an object'). The motion should then be regenerated to match the single, clear goal."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion of a person squat-walking forward and then walking normally back does not align with the goal. The prompt requires a standard upright walk characterized by an uneven gait, specifically favoring the left leg and suggesting drunkenness, none of which is present in the squatting or regular walking.",
+                            "refinement": "Eliminate the squat-walking and the return trip. The motion should be a continuous forward walk. Introduce a noticeable limp or unevenness in the gait, where the person puts less weight or time on their left leg. Add a slight sway or unsteadiness to the upper body to convey the impression of being drunk."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person walking forward with a 'stepping over' action, which partially matches the forward walking but fails to convey the specific characteristics of favoring one leg, shifting weight unevenly, or appearing drunk and unbalanced.",
+                            "refinement": "Replace the 'stepping over' motion with an unstable, swaying walk. Introduce a noticeable limp to show the man is favoring his left leg. The steps should be irregular in length and timing to better reflect a drunken state."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion captures the stumbling and loss of balance associated with being drunk, but it deviates significantly from the prompt. Instead of a continuous forward walk, the character steps back, stumbles, and collides with a wall. The key detail of favoring the left leg is completely absent.",
+                            "refinement": "Remove the backward steps and the collision. The motion should be a continuous forward walk. Introduce a distinct limp or uneven gait to show the person is favoring their left leg, incorporating the stumbling and unsteadiness into this specific walking pattern."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion captures an awkward, zigzagging forward walk, which aligns with the 'shifting' and 'possibly drunk' aspects of the prompt. However, it does not consistently show the action of 'favoring his left leg,' with the only described unevenness being a single larger step.",
+                            "refinement": "Incorporate a continuous limp or imbalance that clearly favors the left leg. This could involve making the steps with the left leg shorter, quicker, or causing a slight dip in the body's posture each time weight is placed on it, maintaining this asymmetry throughout the walk."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000007",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M000180",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "013170",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "000864",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010765",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person starts at the top of stairs and at a regular pace walks down stairs.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person walking down stairs. Key elements are the starting position at the top, the specific action of descending, the environment of a staircase, and a regular, consistent pace.",
+                            "The motion should begin with the character positioned at the top of the stairs, followed by a measured and deliberate descent, navigating each step with a steady rhythm and consistent pace.",
+                            "The key is to capture the downward movement along a staircase, with smooth, controlled steps and a realistic starting position at the top leading to a gradual descent.",
+                            "The motion must ensure the character starts at the top of the staircase, descends step-by-step at an even pace, and maintains the proper alignment to the stair environment while moving downward."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the provided descriptions, as the descriptions for the generated motion are identical to the goal prompts. The motion accurately depicts one of the three specified scenarios: a person walking with a limp as if drunk, a person walking down stairs, or a person stepping over something.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person stepping back, stumbling forward, losing balance, and colliding with a wall. This does not align with the goal of walking down stairs at a regular pace, as it lacks the key elements of stairs, downward progression, and a steady walk.",
+                            "refinement": "Replace the stumbling and collision with a continuous, steady walking motion. The movement should show a consistent downward trajectory, simulating the action of descending a flight of stairs one step at a time."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person squat walking across a flat surface, which fundamentally differs from the goal of walking down stairs. The action, posture (squatting vs. upright), and environment (flat ground vs. stairs) are all incorrect.",
+                            "refinement": "Change the motion from a squat walk on a flat surface to an upright, regular-paced walk. The movement should be consistently downward to simulate descending a flight of stairs."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion shows a person walking forward awkwardly on a flat surface with a slight zigzag. This fails to capture the key elements of descending and the context of stairs.",
+                            "refinement": "Modify the motion from walking on a flat plane to a continuous downward progression, simulating stepping down onto lower levels with each step. Ensure the pace is regular and not awkward."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person walking forward on a flat surface with an exaggerated stepping-over motion, which does not match the goal of walking down stairs. The essential element of vertical descent is completely absent.",
+                            "refinement": "Change the trajectory from walking forward on a flat plane to a continuous downward movement. The leg action should be a controlled lowering of the body from one step to the next, simulating the descent of a staircase."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000007",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M000180",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "013170",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "000864",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010765",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person is walking and then steps over something.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion that combines two distinct actions in sequence: first, a standard walking motion, and second, a clear motion of stepping over an unseen obstacle. The key elements are the continuous forward locomotion of walking and a single, pronounced leg lift to clear a hurdle.",
+                            "The motion should begin with a smooth, natural walking pattern and then transition into a deliberate and high leg lift that clears an imagined obstacle, before resuming the walking rhythm.",
+                            "This involves initiating with steady forward walking, followed by an accented leg raise that simulates stepping over a hurdle, ensuring the sequence is seamless and realistic.",
+                            "To achieve the goal, the motion needs to exhibit a consistent walking rhythm that progresses into an exaggerated but controlled leg lift to mimic stepping over an invisible barrier."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures the three distinct actions described in the prompt: a forward walk favoring the left leg as if drunk, walking down stairs, and finally, walking and stepping over an object. The alignment is exact.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person stepping backward, then stumbling forward and losing balance, ultimately colliding with something. This does not align with the goal of a person walking and deliberately stepping over an obstacle.",
+                            "refinement": "Replace the current motion with a continuous forward walk. After a few steps, introduce a high leg lift to simulate stepping over an object, then continue walking. Remove the backward steps, stumbling, and collision."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person squat-walking and then standing up to walk back. This does not align with the prompt, which requires a normal walking motion followed by a high step to clear an obstacle.",
+                            "refinement": "Replace the squat-walking with a standard walking animation. At a certain point, have the person lift one leg significantly higher than a normal step, as if clearing an object on the ground, and then resume walking."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion shows a person walking forward awkwardly with one bigger step, which only partially aligns with the goal. It captures the walking but fails to clearly depict the action of 'stepping over' something, which requires a more distinct and higher leg lift.",
+                            "refinement": "Modify the motion to include a clear 'stepping over' action. After a few normal walking steps, have the person raise one leg significantly higher, as if to clear an obstacle, before placing it down and continuing to walk normally. The initial walk should be natural, not awkward or zigzag."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion accurately depicts a person walking forward and then performing a high step, as if stepping over a gap or obstacle, which aligns well with the prompt.",
+                            "refinement": "No refinements needed."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000008",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "H_010457",
+                            "f_tag": 0.0,
+                            "to_tag": 3.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M002808",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "008790",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010036",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man performs a squat while lifting his arms to shoulder height and hands above his head.",
+                        "<Prompt_Analysis>": [
+                            "The goal motion requires the combination of two distinct actions performed concurrently: a lower-body squat and an upper-body arm movement. The squat involves bending the knees and lowering the torso. The arm movement is a specific two-stage action: first, the arms are lifted to shoulder height, and subsequently, the hands are raised above the head.",
+                            "The motion should demonstrate a synchronized performance of a lower-body squat where the knees bend and the torso lowers, paired with an upper-body sequence that begins with raising the arms to shoulder level and transitions into lifting the hands overhead.",
+                            "This motion integrates two simultaneous actions: a deep squat with the legs and an arm movement that starts with elevating the arms to shoulder height followed by raising the hands above the head.",
+                            "The key is to coordinate a fluid squat movement where the lower body descends, while the upper body performs a two-step arm motion\u2014first to shoulder level, then fully overhead."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion accurately portrays a person performing a squat while simultaneously raising their arms overhead and then standing back up, which fully aligns with the goal.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person standing and then walking, which completely fails to match the goal of performing a squat with specific arm movements. The key actions of squatting and lifting the arms are entirely missing.",
+                            "refinement": "Replace the walking motion with a stationary squat. The person should bend their knees and hips to lower their torso. Simultaneously, as they squat down, they should lift their arms up until their hands are above their head."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion, which involves a person playing catch by reaching, running, picking up, and throwing, completely fails to match the goal of performing a stationary squat with a specific arm-lifting movement.",
+                            "refinement": "Replace the entire motion. The new motion should consist of a person standing in place, bending at the knees and hips to perform a squat, and simultaneously raising their arms until their hands are above their head. The person should then return to the starting standing position."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly includes a squatting or crouching action. However, it completely misses the specified arm movement of lifting arms to shoulder height with hands above the head. Instead, it incorrectly adds lateral jumps or hops and unstable stumbling, deviating from the stationary, controlled squat described in the prompt.",
+                            "refinement": "Remove the lateral jumps and stumbling. The motion should be a single, controlled squat performed in place. As the person squats, they should simultaneously lift their arms forward to shoulder height and then raise their hands above their head."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures the squat action, but the arm movement is inaccurate. The arms are extended forward at shoulder height rather than being lifted upwards so the hands are above the head.",
+                            "refinement": "Adjust the arm movement to lift vertically upwards during the squat, ensuring the hands are positioned above the head, not extended forward."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000008",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "H_010457",
+                            "f_tag": 0.0,
+                            "to_tag": 3.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M002808",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "008790",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010036",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person squats and raises both arms and then stand backup.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion with a clear sequence of three parts: 1) a squat, where the person lowers their body by bending their knees; 2) raising both arms, which should happen in conjunction with the squat; and 3) standing back up to return to the initial position.",
+                            "The motion should start with a controlled squat, characterized by the deliberate bending of the knees, accompanied by a synchronized upward arm movement, and conclude with a smooth transition back to a standing position.",
+                            "To successfully capture the motion, the sequence must involve a downward motion into a squat, simultaneous lifting of both arms during the squat, and then a return to a standing posture with the arms lowering back.",
+                            "This motion requires three distinct actions: first, a steady squat where the knees are bent and the body lowers; second, arm elevation aligned with the squat movement; and finally, standing upright to complete the motion."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly matches the prompt, showing a person performing a squat while simultaneously raising their arms overhead.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person starting to walk, which does not align with the prompt's goal of performing a squat with an arm raise. The key actions of squatting, raising arms, and standing back up are completely absent.",
+                            "refinement": "Replace the walking motion with the following sequence: from a standing position, the person should bend their knees and hips to lower into a squat, simultaneously raising both arms. Afterwards, they should extend their legs to return to a standing position."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion involves a person acting as if they are playing catch, including reaching, running, and throwing. This completely deviates from the requested simple, stationary exercise of squatting, raising both arms, and standing up.",
+                            "refinement": "Replace the entire catching and throwing sequence with a single, stationary motion. The person should squat down, raise both arms simultaneously, and then stand back up to the initial position."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the initial squatting action. However, it fails to include the action of raising both arms. Instead of standing back up in place, the person performs lateral jumps, which is not part of the prompt.",
+                            "refinement": "Remove the lateral jumps. After the squat, the person should raise both arms and then simply stand straight up to return to the starting position."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person extending their arms forward while performing a squat and then returning to a standing position, which aligns well with the goal prompt.",
+                            "refinement": "No refinements needed."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000008",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "H_010457",
+                            "f_tag": 0.0,
+                            "to_tag": 3.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "M002808",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "008790",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010036",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person does a squat and raises both arms over its head.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion that combines two specific actions: a squat and raising both arms over the head. The key elements are the downward movement of the lower body into a squatting position and the upward movement of the arms to a position above the head. These actions should be coordinated.",
+                            "For the motion to succeed, it must feature a synchronized combination of the body lowering into a squat position while both arms are raised seamlessly to a position above the head.",
+                            "The motion requires a fluid integration of two movements: bending the knees to enter a squat and simultaneously lifting both arms upward over the head in a coordinated manner.",
+                            "Key components of this motion include the body descending smoothly into a squat while the arms are elevated simultaneously to align above the head, ensuring both actions are well-timed and harmonious."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt, showing a person performing a squat while simultaneously raising their arms above their head and then returning to a standing position.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking, which completely fails to capture the requested stationary squat and the action of raising both arms overhead.",
+                            "refinement": "Replace the walking motion with a stationary squat. The person should bend their knees and lower their hips, and at the same time, raise both arms straight up over their head."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person playing catch, involving reaching, running, and throwing. This is completely unrelated to the goal of performing a squat while raising both arms overhead.",
+                            "refinement": "Replace the entire motion. The person should perform a squat by bending their knees and lowering their hips, and at the same time, raise both arms straight up over their head. Remove all actions related to catching, throwing, and running."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly includes a squatting action but fails to incorporate raising both arms overhead. Instead, it adds lateral jumps and a stumble, which are not part of the prompt.",
+                            "refinement": "Remove the lateral jumps and stumbling. The person should perform a squat while simultaneously raising both arms over their head, staying in a relatively fixed position."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly performs a squat, but the arms are extended forward instead of being raised overhead as requested in the prompt.",
+                            "refinement": "Modify the arm movement so that the arms are raised overhead during the squat, rather than being extended forward."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000010",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "009745",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "012731",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "001929",
+                            "f_tag": 0.0,
+                            "to_tag": 10.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010825",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man pats his left hand with his right hand.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a man performs a specific hand gesture. The key elements are: the right hand is the active agent, the left hand is the passive agent being acted upon, and the action is \"patting\". This implies a light, repetitive striking motion of the right hand against the left. The motion should be focused on the upper body and hands.",
+                            "The motion should involve the right hand actively performing a repetitive patting action against the stationary left hand, with the attention centered on the upper body and hands.",
+                            "A key aspect of the motion is the dynamic interaction between the right and left hands, where the right hand executes a gentle, rhythmic striking motion against the passive left hand, while the focus remains on upper body movements.",
+                            "To create this motion, emphasize the right hand's role in delivering light, repetitive pats to the left hand, ensuring the action stays upper-body focused and accurately captures the interaction between both hands."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly matches the prompt. The person raises their left hand and uses their right hand to tap on the left wrist, accurately simulating the action of checking a watch or gesturing about time.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion, which involves a person flapping their arms up and down while stepping side to side, is completely unrelated to the prompt's simple action of a man patting his left hand with his right hand.",
+                            "refinement": "Eliminate the arm flapping and side-stepping entirely. The motion should be localized to the hands, with the right hand moving to make a clear, patting contact with the stationary left hand."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion involves a person picking up, manipulating, and setting down an imaginary object with both hands. This completely deviates from the goal, which is a simple self-contact gesture of one hand patting the other.",
+                            "refinement": "Replace the object manipulation with a motion where the right hand repeatedly makes light, tapping contact with the stationary left hand."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion shows a person walking with clasped hands and then turning, which completely misses the requested action of one hand patting the other. The motion involves full-body locomotion instead of the specified stationary, upper-body gesture.",
+                            "refinement": "Remove the walking and turning. The character should remain stationary and perform the action of the right hand repeatedly making light contact with the left hand in a patting motion."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows the left hand acting on the right wrist, possibly adjusting a watch. This is the reverse of the prompt's specified action and the motion is a single touch or adjustment, not a pat.",
+                            "refinement": "Reverse the roles of the hands, making the right hand the active one. The right hand should perform a repeated, light tapping or patting motion onto the left hand."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000010",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "001929",
+                            "f_tag": 0.0,
+                            "to_tag": 10.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009745",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "012731",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010825",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "person uses his right hand to tap on the wrist of his left wrist like he's using a wrist watch or smart watch",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a person performs a specific upper-body gesture. The key elements are: the right hand is the active hand, the left wrist is the target, and the action is tapping, simulating the use of a smartwatch or wristwatch.",
+                            "The motion should clearly replicate a tapping gesture where the right hand deliberately moves to and makes contact with the left wrist, focusing on precision and clear targeting for the interaction.",
+                            "The movement requires the right hand to actively and purposefully tap onto the left wrist, ensuring that the gesture convincingly conveys the action of interacting with a smartwatch or wristwatch.",
+                            "To achieve this, the motion must emphasize the right hand's intentional gesture of tapping the left wrist, maintaining clarity and realism in the action to simulate checking or using a watch."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the prompt, showing a person raising their left hand and using their right hand to tap on the left wrist, consistent with patting the hand or checking a watch.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion involves a person walking forward with clasped hands and then turning around. This does not align with the goal of a specific hand gesture, which is using the right hand to tap the left wrist as if interacting with a watch.",
+                            "refinement": "Remove the walking and turning actions. The person should be relatively stationary. The motion should focus on the upper body, specifically having the person lift their left arm and use their right hand to perform a tapping motion on their left wrist."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion, which involves a person flapping their arms up and down while stepping side to side, completely misaligns with the prompt. It does not contain any element of one hand tapping the other wrist to simulate using a watch.",
+                            "refinement": "Replace the current motion entirely. The person should raise their left arm, bend it at the elbow, and use the index finger of their right hand to make small, repeated tapping motions on their left wrist."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion involves picking up, manipulating, and setting down an object with both hands. This does not align with the goal of using the right hand to tap on the left wrist, as if using a smartwatch.",
+                            "refinement": "Replace the object manipulation with the following sequence: raise the left arm to a comfortable position, then use the right hand to make small, distinct tapping motions on the left wrist."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person using their left hand to interact with their right wrist. This is the reverse of the prompt, which specified the right hand tapping the left wrist.",
+                            "refinement": "Swap the roles of the hands. The right hand should be the one performing the tapping motion, and the left wrist should be the target, simulating the use of a watch."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000010",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "001929",
+                            "f_tag": 0.0,
+                            "to_tag": 10.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009745",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "012731",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "010825",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "with their left hand, the person raises it up, and with their right hand, they tap on their left wrist with their finger, seeming to give a time-related message.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion where a person performs a specific two-handed gesture. Key elements are: the left hand is raised, the right hand approaches the left wrist, and the right finger taps the left wrist, simulating a gesture related to checking the time. The focus is on upper-body movement, specifically the coordinated action of both arms and hands.",
+                            "The motion should clearly depict the left hand rising to a visible position, followed by the right hand moving deliberately to the left wrist and executing a tapping motion, with a primary emphasis on the synchronized actions of the arms and hands.",
+                            "To capture the gesture, the left arm must be raised in a steady motion, while the right hand approaches the left wrist with precision and performs a distinct, deliberate tapping action, highlighting the coordination of both arms.",
+                            "The movement requires the left hand to lift and remain steady, as the right hand approaches and taps the left wrist in a manner that mimics checking the time, showcasing fluid and harmonized upper-body action."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion of a person raising their left hand and using their right hand to tap their left wrist perfectly aligns with the goal of patting the hand or gesturing towards a watch for a time-related message.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion involves walking and turning, which completely fails to capture the specific stationary gesture described in the prompt. The prompt requires raising the left hand and tapping the left wrist with the right finger, none of which are present in the generated motion.",
+                            "refinement": "Replace the walking and turning with a stationary pose. The person should raise their left arm, bending it at the elbow, and then use their right index finger to tap on their left wrist a few times, mimicking the gesture for checking a watch or indicating time."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion involves flapping both arms up and down while walking side to side, which does not match the specific gesture of raising the left hand and tapping the wrist with the right hand to signal a time-related message.",
+                            "refinement": "Replace the arm flapping and side-stepping motion. Instead, the person should raise their left arm, as if checking a watch, and then use the index finger of their right hand to repeatedly tap their left wrist."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion involves a person picking up, tilting, and setting down an object with both hands. This does not match the goal, which is a specific communicative gesture of raising the left hand and tapping the left wrist with the right finger to indicate something about time.",
+                            "refinement": "Replace the object manipulation action entirely. The left arm should be raised and bent, as if to look at a watch. The right hand should then approach the left wrist and make a distinct tapping motion with the index finger."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion incorrectly reverses the roles of the hands. It shows the left hand touching the right wrist, whereas the prompt specifies the right hand should tap the left wrist.",
+                            "refinement": "Swap the actions of the hands. The left hand should be raised and held up, while the right hand performs a tapping motion on the left wrist."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000011",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "009047",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "006051",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M011398",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "009939",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man waves his hands then stands on his right leg while lifting his left.",
+                        "<Prompt_Analysis>": [
+                            "The goal motion has two distinct, sequential parts: first, a person waves their hands, and second, they transition into a static pose, standing on their right leg while lifting their left leg. This requires both a specific arm gesture and a specific standing posture.",
+                            "The motion should begin with a clear and intentional hand-waving gesture, followed by a smooth transition into a balanced pose where the person stands firmly on their right leg while lifting their left leg off the ground.",
+                            "To achieve this, the motion must first depict a deliberate, rhythmic waving of the hands, then seamlessly shift into a static pose with the body stabilized on the right leg and the left leg raised.",
+                            "The key elements involve starting with a dynamic arm-waving gesture and ending with a controlled, static posture where the individual balances on the right leg while lifting the left leg into a suspended position."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion is an exact match to the prompt. It shows a man waving his hands and then balancing on his right leg while lifting his left, or alternatively, a person sitting with specific arm postures, fully aligning with the provided descriptions.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion includes hand gestures but fails to capture the specific action of waving. More significantly, it shows a person hunched over and walking forward, which completely contradicts the prompt's core requirement of standing on one leg.",
+                            "refinement": "Replace the hunched, forward-walking motion with an upright, stationary stance. The motion should begin with a clear waving gesture, followed by the person shifting their weight to stand on their right leg while lifting the left leg."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person in a sitting or squatting position repeatedly bringing their right hand to their face. This completely fails to capture the initial hand-waving and the subsequent action of standing on the right leg while lifting the left.",
+                            "refinement": "Change the posture from sitting/squatting to standing. The initial action should be a clear waving of the hands, followed by the person shifting their weight to stand on their right leg while lifting their left leg."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion is completely misaligned with the prompt. It shows a person sitting down and gesturing with their hands, failing to perform the key actions of standing, balancing on the right leg, and lifting the left leg.",
+                            "refinement": "Change the initial posture from sitting to standing. The motion should begin with the person waving their hands, then transition to them balancing on their right leg while lifting the left leg off the ground."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person putting their hands together and then raising their left hand. This does not match the requested action of waving hands, and completely omits the subsequent action of standing on the right leg while lifting the left.",
+                            "refinement": "Replace the current arm movement with a waving gesture. Following the wave, the person should shift their weight to their right leg and lift their left leg, holding a balanced pose."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000011",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "009047",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009939",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "M011398",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "006051",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "though it is difficult to tell the figure is sitting down and most of their body is still but their arms are up by their side and the hands are in present in small jittery movements that are meant to indicate that the person is eating something, but its only possible to tell because this video is titled and not numbered, thats how slight the hand movements are.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion of a person sitting down. The body should be mostly still, with the primary action focused on the hands. The hands should be positioned near the sides or face and exhibit small, slight, jittery movements to simulate the act of eating.",
+                            "The motion emphasizes a seated position where the hands are brought near the sides or face, executing small, subtle, and jittery movements to mimic an eating action while the rest of the body remains still.",
+                            "The key components involve a stationary seated pose with the hands slightly raised and performing short, quick motions around the face or sides, clearly simulating the gestures of eating.",
+                            "To effectively portray the motion, the person should maintain a stable seated posture, with the hands exhibiting minimal and repetitive jittery actions in close proximity to the sides or facial area to convey eating."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly aligns with the provided prompt descriptions. The motion is described identically, capturing the actions of a person waving and balancing on one leg, or sitting and eating with subtle hand movements, or sitting with bent arms, exactly as requested in the complex prompt.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion is completely misaligned with the prompt. Instead of a still, seated person making subtle eating gestures, the motion shows a person hunched over and walking forward, making hand gestures that suggest lurking or stalking.",
+                            "refinement": "Change the posture from hunched and walking to seated and still. Eliminate all forward locomotion. Replace the large hand gestures with small, subtle, jittery movements near the upper body to indicate the action of eating."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion involves large, distinct arm movements, such as raising the left hand above the head, which is interpreted as drinking. This contrasts with the prompt's request for a sitting figure with very slight, jittery hand movements near the side to indicate eating.",
+                            "refinement": "Ensure the figure is in a seated position with a mostly still body. Replace the large arm gestures with small, subtle, and jittery movements of the hands, keeping them near the mouth or lap area to better represent the act of eating."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly shows a person sitting down with hand movements, but the movements are large gestures like turning a steering wheel or balancing, not the small, slight, jittery motions associated with eating.",
+                            "refinement": "Reduce the amplitude of the arm and hand movements significantly. The motions should be small, subtle, and jittery, focused near the person's upper body and face to accurately convey the action of eating."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures a person in a seated/squatting posture performing an eating action with shaky hand movements towards the face. However, it primarily involves only the right hand in four distinct lifts, whereas the prompt describes very slight, jittery movements with both hands, and a definite sitting posture rather than squatting.",
+                            "refinement": "Adjust the posture to a clear sitting position, not a squat. Involve both hands in the action, and change the movement from four large lifts to smaller, more continuous, and subtle jittery motions near the mouth to better represent the act of eating."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000011",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "009047",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "009939",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "006051",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M011398",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person sits down with arms bent at the elbow",
+                        "<Prompt_Analysis>": [
+                            "The goal motion has two key components: the action of transitioning from standing to a seated position (\"sits down\") and a specific arm posture (\"arms bent at the elbow\") that should occur concurrently with or as a result of the main action.",
+                            "The motion should emphasize a smooth and controlled descent from a standing pose to a seated position, with the arms naturally bending at the elbows either during or after the descent to complete the action.",
+                            "To capture this goal, the focus should lie on transitioning fluidly into a seated posture, while coordinating the arm movements so they bend at the elbows in harmony with the body's motion.",
+                            "The central aim is a synchronized movement where the character shifts from standing to sitting while simultaneously incorporating arm positioning with bent elbows to complement the action."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion is described by a set of contradictory actions (standing on one leg, sitting, and eating), which are identical to the set of prompts provided as the goal. The descriptions are incoherent for a single motion, as a person cannot be simultaneously standing and sitting. However, if we assume the first action, 'a man waves his hands then stands on his right leg while lifting his left,' is the primary goal, then the motion perfectly matches that specific action.",
+                            "refinement": "The goal prompt needs to be refined to describe a single, coherent action. Remove the contradictory descriptions of sitting and eating, and focus only on the sequence of waving hands and then standing on one leg."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion does not match the prompt. Instead of sitting down, the person bends at the waist and walks forward in a hunched position, appearing to be lurking or avoiding something. The core action of sitting is absent.",
+                            "refinement": "Remove the forward walking and hunched posture. The person should start standing and then lower their body by bending their knees and hips into a seated position. Ensure the arms remain bent at the elbows throughout the sitting motion."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion completely misses the primary action of sitting down. Instead, it focuses on a series of unrelated arm movements, such as bringing hands together and raising the left hand as if drinking.",
+                            "refinement": "Remove the current arm gestures. The primary action should be changed to the person transitioning from a standing to a sitting position, while keeping their arms bent at the elbows."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion does not show a person sitting down. Instead, it depicts someone already in a squatting or seated position, performing repetitive hand-to-face gestures with their right hand, which misinterprets the core action of the prompt.",
+                            "refinement": "Initiate the motion with the person in a standing position. The primary action should be the person lowering their body into a seated posture. During this transition, ensure both arms remain bent at the elbow, rather than performing other gestures."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person who is already seated and performing actions like turning a steering wheel or gesturing. This completely misses the primary action from the prompt, which is the transition of sitting down.",
+                            "refinement": "Change the motion to show a person starting from a standing position and then lowering their body into a seated position. The arm movement should be a simple bending at the elbow, not a specific action like steering."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "task": "unified_mogen_cot_v2",
+            "candidate_motion_text": [
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000012",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M007600",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "003101",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "011642",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M004836",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a man stumbles to his right. the motion seems surprised so he was probably pushed.",
+                        "<Prompt_Analysis>": [
+                            "The goal is a motion where a person stumbles specifically to their right. The stumble should look involuntary and surprised, as if caused by an external force like a push. The key elements are the stumble action, the rightward direction, and the surprised or reactive nature of the movement.",
+                            "The motion should distinctly depict an unexpected loss of footing, with the individual lurching to their right in a reactive manner, as if destabilized by an external force or event.",
+                            "To achieve the desired motion, focus on an involuntary, unbalanced shift of the body towards the right, capturing the essence of surprise and sudden reaction.",
+                            "The key factors involve portraying an abrupt, involuntary stumble toward the right, emphasizing the movement's reactive and startled nature as if provoked by an external push."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures the action of a person stumbling to the right, appearing surprised as if pushed, losing balance, and then recovering to a standing position, fully aligning with the prompt.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking forward in a controlled manner, possibly using a handrail for support. This does not align with the prompt's request for an uncontrolled stumble to the right, nor does it convey any sense of surprise or being pushed.",
+                            "refinement": "Replace the controlled forward walk with a sudden, off-balance movement directed to the right. The character should lose their footing and take a quick, reactive step or two sideways to regain balance, with the upper body reacting in a surprised manner."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person attempting a handstand and falling to all fours, which is completely different from the goal of a man stumbling to his right in a surprised manner. The motion lacks the key elements of stumbling, rightward direction, and the reactive surprise of being pushed.",
+                            "refinement": "Replace the handstand attempt with an action where the person starts standing, then is abruptly knocked off balance to their right. The motion should involve taking several quick, uncontrolled steps to the right to regain balance, with arm and torso movements conveying surprise."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the stumble to the right as if from a push. However, it includes an initial forward walk and a subsequent walk to the front left after recovery, which were not specified in the prompt.",
+                            "refinement": "Remove the initial forward steps and the walk after recovery. The motion should start directly with the surprised stumble to the right from a relatively static position."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly portrays a stumble, but the direction is to the left instead of the specified right. It also fails to convey the surprised reaction or the sense of being pushed.",
+                            "refinement": "Correct the direction of the stumble from left to right. Add elements of surprise, such as a sharp initial jolt, flailing arms, or a quick head turn, to indicate the stumble was caused by a push."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000012",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M007600",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "003101",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "011642",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M004836",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person standing loses balance falling to the right and recovers standing",
+                        "<Prompt_Analysis>": [
+                            "The goal is a motion depicting a person starting from a standing position, losing their balance, and starting to fall towards their right side. Crucially, they must then recover from this fall and return to a stable standing position. The key elements are the initial stance, the loss of balance, the rightward direction of the fall, and the successful recovery.",
+                            "The motion should begin with a stable standing posture, followed by a realistic shift in balance leading to a rightward fall, and finally a smooth recovery as the person regains stability and returns to their initial standing position.",
+                            "It is essential to portray a clear sequence starting with a stable standing pose, progressing to a loss of balance tipping towards the right, and ending with a controlled motion that brings the person back to a steady upright stance.",
+                            "The focus should be on a seamless progression from a standing start to a gradual loss of balance toward the right side, with a decisive moment of recovery that culminates in the resumption of a stable, upright position."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures the act of a person stumbling to the right, losing balance, and then recovering their stance. It also successfully conveys the intended element of surprise, as if reacting to a push.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a person walking forward while using their right hand for support, which does not match the prompt's request for losing balance, falling to the right, and recovering from a standing position.",
+                            "refinement": "Remove the forward walking motion. The person should start standing still, then stumble or lurch to the right as if losing balance, and finally correct their posture to return to a stable standing position."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion involves a person attempting a handstand, falling forward onto all fours, and then standing back up. While it includes a fall and recovery, it misinterprets the cause as a failed athletic move and the direction as forward, instead of an accidental loss of balance to the right.",
+                            "refinement": "Replace the handstand attempt with an unintentional stumble. The person should start to lose balance and fall sideways to the right, then catch themselves and regain a stable standing posture without fully falling to the ground."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly captures the action of staggering to the right and recovering balance. However, it incorrectly includes walking both before and after the stagger, while the prompt specifies the person is standing in place initially.",
+                            "refinement": "Remove the initial forward steps and the final walk to the left. The motion should start from a static standing position, execute the loss of balance and recovery, and then return to a stable standing position."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion shows a person stumbling, which aligns with the concept of losing balance and recovering. However, the stumble is primarily to the left, contradicting the prompt's specification of falling to the right.",
+                            "refinement": "Change the direction of the stumble from left to right to match the prompt. Ensure the motion depicts a clear loss of balance and subsequent recovery to a standing position, rather than just a side step or stumble."
+                        }
+                    }
+                },
+                {
+                    "motions": {
+                        "<Goal_Motion>": {
+                            "motion_name": "000012",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_0>": {
+                            "motion_name": "M007600",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_1>": {
+                            "motion_name": "003101",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_2>": {
+                            "motion_name": "011642",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        },
+                        "<Intermediate_Motion_3>": {
+                            "motion_name": "M004836",
+                            "f_tag": 0.0,
+                            "to_tag": 0.0
+                        }
+                    },
+                    "text": {
+                        "<Goal_Caption>": "a person stumbles to the right and recovers their balance.",
+                        "<Prompt_Analysis>": [
+                            "The goal is to generate a motion that depicts a specific sequence: a person loses their balance, stumbles towards their right side, and then successfully regains their balance and becomes stable again. The key elements are the stumble action, the rightward direction, and the recovery.",
+                            "The motion should clearly portray a progression where the individual momentarily loses stability, stumbles in a rightward direction with a brief, unsteady movement, and then transitions smoothly into a stable standing posture.",
+                            "To achieve the desired motion, it is essential to depict an initial imbalance, followed by a visible stumble to the right, and ending with a controlled recovery to a steady, upright position.",
+                            "A successful result captures the sequence of events: a palpable moment of instability, a stumble toward the right side marked by uneven footing, and a decisive return to a stable, balanced stance."
+                        ],
+                        "<Assess_Goal_Motion>": {
+                            "assessment": "The generated motion perfectly captures a person stumbling to the right, conveying a sense of surprise as if pushed, and then recovering their balance. The alignment with the prompt is excellent.",
+                            "refinement": "No refinements needed."
+                        },
+                        "<Assess_Intermediate_Motion_0>": {
+                            "assessment": "The generated motion shows a stable forward walk, possibly using the right hand for support. This does not align with the prompt, which requires an uncontrolled stumble to the right followed by a recovery of balance.",
+                            "refinement": "Replace the forward walk with an initial loss of balance that causes an abrupt lurch to the right. Then, show the person making corrective movements with their arms and legs to regain a stable, upright posture."
+                        },
+                        "<Assess_Intermediate_Motion_1>": {
+                            "assessment": "The generated motion shows a person attempting a handstand, falling forward onto all fours, and then standing back up. This does not align with the goal of a sideways stumble to the right. The action is a deliberate forward movement, not an accidental lateral one.",
+                            "refinement": "Change the initial action from a handstand attempt to an accidental loss of balance. The movement should be directed sideways to the right, with the person taking a few quick steps or lurching in that direction to regain their footing."
+                        },
+                        "<Assess_Intermediate_Motion_2>": {
+                            "assessment": "The generated motion correctly shows a person staggering to the right and recovering their balance, which aligns with the core action. However, it also includes additional walking before and after the stumble, which is not part of the prompt.",
+                            "refinement": "Remove the initial forward steps and the final walking to the front left. The motion should focus solely on the sequence of stumbling to the right and then immediately regaining balance."
+                        },
+                        "<Assess_Intermediate_Motion_3>": {
+                            "assessment": "The generated motion correctly captures the action of stumbling, but the direction of the stumble is to the left, which contradicts the prompt's requirement for a stumble to the right.",
+                            "refinement": "Change the direction of the stumble from left to right, and ensure the motion includes a clear action of recovering balance after the initial stumble."
+                        }
+                    }
+                }
+            ],
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Generate_Assess_Refien_Template_wo_Answer>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Unified_Mogen_COT_Trace>"
+                }
+            ]
+        }
+    ]
+}

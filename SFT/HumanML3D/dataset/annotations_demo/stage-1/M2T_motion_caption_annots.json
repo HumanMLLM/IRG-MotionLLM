@@ -1,0 +1,363 @@
+{
+    "info": {
+        "num_instances": "",
+        "time": "2025-09-19 16:23:02"
+    },
+    "annotations": [
+        {
+            "id": 0,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000002",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man full-body sideways jumps to his left.",
+                    "a person jumps straight to the left.",
+                    "a person jumps sideways to the left",
+                    "a person jump hop to the right"
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000003",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man lifts something on his left and places it down on his right.",
+                    "a man picks up an unseen object to his front left and moves it to an unseen platform on this front right without moving his feet.",
+                    "a man standing in place picks up something with both hands from his left hand side, and places it down at his right hand side.",
+                    "the figure leans down to the right, straightens, and then leans to the left"
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000004",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man is pretending to be a chicken. constantly pecking at the ground and waving his arms like a chicken.",
+                    "humanoid is acting like a chicken with their arms pointed up and their hands on their chest area, they also were pecking at something",
+                    "a person bends forward at the waist while both hands are tucked inside their armpits and elbows move up and down.",
+                    "a man flaps his arms like a chicken while bending up and down."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000005",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person walks slowly forward then toward the left hand side and stands facing that direction.",
+                    "a person walks forward on an angle to the right",
+                    "a person walks diagonally forward and to the left.",
+                    "a person walks and then makes a right turn."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000006",
+                    "f_tag": 0.0,
+                    "to_tag": 5.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person walks toward the front, turns to the right, bounces into a squat , and places both arms in front of chest before placing them on the knees."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000006",
+                    "f_tag": 0.0,
+                    "to_tag": 8.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a person walks, turns slight to the right, squats, puts hand on both knees while squatting, and then squats again."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000006",
+                    "f_tag": 0.0,
+                    "to_tag": 8.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "person walks up and squats slightly to pose a position",
+                    "he move forward then stretch his body, moving his hand and touching his knees with hands and now he turned to the left side."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000007",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man is walking forward, favoring his left leg and shifting his walk. he is possibly drunk.",
+                    "a person starts at the top of stairs and at a regular pace walks down stairs.",
+                    "a person is walking and then steps over something.",
+                    "a man walks forward then stops."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000008",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man performs a squat while lifting his arms to shoulder height and hands above his head.",
+                    "a person squats and raises both arms and then stand backup.",
+                    "a person does a squat and raises both arms over its head.",
+                    "a person squats down and puts their hands above their head"
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000009",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man waves his right hand.",
+                    "person raises right hand, waves, then lowers hand.",
+                    "a man waves his right forearm and hand from side to side.",
+                    "person waves with their right arm"
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "motions": {
+                "<Goal_Motion>": {
+                    "motion_name": "000010",
+                    "f_tag": 0.0,
+                    "to_tag": 0.0
+                }
+            },
+            "text": {
+                "<Goal_Caption>": [
+                    "a man pats his left hand with his right hand.",
+                    "person uses his right hand to tap on the wrist of his left wrist like he's using a wrist watch or smart watch",
+                    "with their left hand, the person raises it up, and with their right hand, they tap on their left wrist with their finger, seeming to give a time-related message.",
+                    "a person pats the top of the left hand with their right hand."
+                ]
+            },
+            "task": "m2t_motion_caption",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Motion2X_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Caption>"
+                }
+            ]
+        }
+    ]
+}

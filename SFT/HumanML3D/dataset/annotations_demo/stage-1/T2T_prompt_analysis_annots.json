@@ -1,0 +1,338 @@
+{
+    "info": {
+        "num_instances": "",
+        "time": "2025-09-19 16:23:24"
+    },
+    "annotations": [
+        {
+            "id": 0,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "humanoid is acting like a chicken with their arms pointed up and their hands on their chest area, they also were pecking at something"
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion where a person imitates a chicken. The key elements are a specific upper-body posture with arms pointed up and hands on the chest to mimic wings, combined with a pecking motion involving the head and upper torso bending forward.",
+                    "The motion centers around achieving an expressive chicken-like posture, with the arms bent and hands positioned near the chest to resemble wings, complemented by a rhythmic pecking movement where the head and upper torso lean forward repeatedly.",
+                    "The key to this motion is recreating a chicken's iconic body language: arms angled upwards with hands resting on the chest to mimic wings, and a dynamic forward nodding gesture driven by the head and upper torso.",
+                    "To successfully portray a chicken, the motion must feature a raised arm-wing position with hands placed at the chest and involve a distinct pecking action characterized by forward bending of the head and upper body."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man is pretending to be a chicken. constantly pecking at the ground and waving his arms like a chicken."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion of a person mimicking a chicken. This requires two main simultaneous or sequential actions: 1) A repetitive downward motion of the head and torso to simulate \"pecking at the ground,\" and 2) A flapping or waving motion of the arms to simulate wings. The overall performance should be continuous and character-driven.",
+                    "The motion should feature a rhythmic head and torso movement in a downward trajectory resembling ground-pecking, accompanied by flapping arm gestures that emulate wing movements, all performed in a continuous and playful manner.",
+                    "A convincing motion requires synchronized head-and-torso dipping actions with repetitive, bird-like arm flaps to convey the essence of a chicken's demeanor.",
+                    "The animation should display a dynamic combination of repetitive pecking motions with the upper body and lively wing-like flapping of the arms, maintaining an engaging and expressive portrayal throughout."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a person jumps straight to the left."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion of a person performing a jump. The key elements are the action itself, which is a \"jump\", and the specific direction, which is \"straight to the left\". This implies a horizontal displacement without significant upward movement.",
+                    "The motion should capture a horizontal jump where the body propels straight to the left with minimal vertical height and a clear lateral trajectory.",
+                    "A proper execution involves a leftward leap featuring a notable horizontal shift while minimizing any upward motion.",
+                    "The generated motion must emphasize a jump directed straight to the left, focusing on horizontal movement with a low vertical component."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man standing in place picks up something with both hands from his left hand side, and places it down at his right hand side."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion of a person standing in a fixed position. The core action is a sequence: first, bending or reaching to their left to pick up an object using both hands. Second, transferring that object across their body. Third, placing the object down on their right side. Key elements are: stationary position, using both hands, and a clear left-to-right transfer of an object.",
+                    "The motion should emphasize a stationary stance, initiating with a full-body lean or reach to the left to grasp the object using both hands, followed by a deliberate and visible transfer of the object across the body, finishing with its placement on the right side.",
+                    "The required motion involves maintaining a stable standing position while performing three key actions: first, reaching toward the left to pick up an item, second, moving the item across the torso, and finally, placing it carefully on the right.",
+                    "To fulfill the goal, the motion must focus on a stationary stance, ensuring the person bends or reaches leftward to secure an item with both hands, smoothly transitions the object across their body, and places it down to their right side with clarity."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man picks up an unseen object to his front left and moves it to an unseen platform on this front right without moving his feet."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion where a person transfers an object from their front left to their front right. The key components are: 1) an initial \"pick up\" action on the left, 2) a \"move\" or \"carry\" action across the body, 3) a final \"place\" action on the right, and 4) a critical constraint that the feet must remain stationary throughout the entire sequence, implying the movement must come from the torso and arms.",
+                    "The motion must start with the person's arms initiating a pickup action from their front left, followed by a smooth, controlled cross-body movement, and conclude with placing the object down on the right while the lower body and feet remain completely still.",
+                    "A successful motion involves a sequence where the object is first retrieved from the left side, then transported gracefully across the body, and finally set down on the right, all while ensuring the legs and feet remain stationary throughout.",
+                    "The motion sequence should include a deliberate pickup from the left, a transitional carry that crosses the torso, and a deliberate placement on the right, emphasizing that all lower-body movement is restricted to maintain foot stability."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man lifts something on his left and places it down on his right."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion involving a specific transfer action. The key elements are: 1) lifting an object, 2) initiating the lift from the person's left side, 3) placing the object down, and 4) completing the placement on the person's right side. The overall motion should be a smooth transfer from left to right.",
+                    "The motion should involve a seamless sequence where the person picks up an object from their left side, transitions it horizontally, and carefully places it down on their right side, ensuring a smooth and fluid transfer throughout.",
+                    "The key to capturing this motion lies in initiating the lift of an object from the left side, maintaining a steady and controlled movement as the object moves across to the right side, and completing the action with an intentional placement.",
+                    "A successful execution requires the motion to unfold in four distinct yet connected stages: lifting the object on the left, smoothly transitioning it across the body, and setting it down with precision on the right."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man full-body sideways jumps to his left."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a full-body motion of a person performing a sideways jump to their left. The key components are the action type (jump), the manner of execution (full-body, sideways), and the direction (to the left).",
+                    "The motion should depict a coordinated full-body jump where the person propels themselves laterally to their left with a noticeable airborne phase and a stable landing.",
+                    "The movement must involve a deliberate and dynamic sideways leap to the left, engaging the entire body in the execution and maintaining balance upon landing.",
+                    "To satisfy the goal, the motion should illustrate a smooth and intentional leftward jump, with synchronous use of arms and legs to execute the lateral movement fully."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a person bends forward at the waist while both hands are tucked inside their armpits and elbows move up and down."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion that combines three specific elements: a forward bend at the waist, a particular arm posture where hands are tucked into the armpits, and a flapping motion of the elbows moving up and down. The sequence and simultaneity of these actions are key.",
+                    "The motion should seamlessly integrate three key actions: a forward lean at the waist, arms positioned with hands tucked securely under the armpits, and synchronized, repetitive flapping movements of the elbows rising and lowering.",
+                    "To achieve this motion, there must be a blend of a forward waist bend, arms arranged with hands fitted into the armpits, and a dynamic, rhythmic flapping of the elbows in a smooth and simultaneous manner.",
+                    "This motion requires a coordinated combination of bending forward at the waist, positioning the hands under the armpits, and producing a repetitive up-and-down wavelike flap of the elbows in a harmonious sequence."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a person walks forward on an angle to the right"
+                ],
+                "<Goal_Analysis>": [
+                    "The goal is to generate a motion where a person is walking. The trajectory is not straight forward, but rather at an angle towards the right. The key components are the action \"walking forward\" and the direction \"on an angle to the right\".",
+                    "The motion must demonstrate a natural walking pattern where the character moves forward while gradually veering to the right, maintaining a smooth directional change.",
+                    "The key is a steady walking motion combined with a deliberate, angled path that guides the character's trajectory forward and slightly to the right.",
+                    "The generated motion should reflect a forward walking behavior with an intentional lean or drift towards the right, creating a diagonal progression."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "he move forward then stretch his body, moving his hand and touching his knees with hands and now he turned to the left side."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal motion is a sequence of four distinct actions: first, the person moves forward. Second, they perform a body stretch. Third, as part of the stretch, their hands touch their knees. Fourth, they turn to the left. The key elements are forward locomotion, a stretching action with a specific hand-to-knee contact, and a final leftward turn.",
+                    "The sequence includes four clearly defined motions: beginning with forward movement, transitioning into a body stretch where hands deliberately touch the knees, and culminating with a smooth, deliberate turn to the left.",
+                    "To achieve this motion, the person must first move forward, execute a precise stretching action where the hands touch the knees, and then conclude the sequence with a controlled leftward turn.",
+                    "The motion involves a combination of four steps: initial forward motion, followed by a stretch that incorporates hands reaching the knees, and concluding with a confident turn toward the left."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "motions": {},
+            "text": {
+                "<Goal_Caption>": [
+                    "a man is walking forward, favoring his left leg and shifting his walk. he is possibly drunk."
+                ],
+                "<Goal_Analysis>": [
+                    "The goal motion is a continuous forward walk characterized by three key mannerisms: a bias or limp that favors the left leg, a generally shifting or unsteady gait, and an overall impression of being drunk.",
+                    "The generated motion should prominently feature an uneven stride with a noticeable bias towards the left leg, combined with an unsteady rhythm that conveys a sense of instability or intoxication.",
+                    "A convincing result will involve a lopsided gait where the weight favors the left leg, paired with swaying or irregular movements along the body's axis to create a drunken appearance.",
+                    "To effectively capture the goal, the motion must exhibit an off-kilter walking pattern, including a characteristic limp favoring the left side, combined with a staggered and disoriented gait that mimics intoxication."
+                ]
+            },
+            "task": "t2t_prompt_analysis",
+            "conversations": [
+                {
+                    "from": "system",
+                    "value": "<General_System_Prompt>"
+                },
+                {
+                    "from": "human",
+                    "value": "<Goal_Analysis_Template>"
+                },
+                {
+                    "from": "gpt",
+                    "value": "<Goal_Analysis>"
+                }
+            ]
+        }
+    ]
+}
