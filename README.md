@@ -4,7 +4,9 @@
 
 
 ## 📢News
-[2026/3/31] The code for experiments on HumanML3D is available. 
+[2026/3/31] The code for experiments on HumanML3D dataset is available. 
+[2026/04/05] The pretrained models on HumanML3D dataset are available. 
+
 
 
 ## 👀Overview
