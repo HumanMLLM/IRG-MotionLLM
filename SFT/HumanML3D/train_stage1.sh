@@ -1,12 +1,12 @@
 ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT train_unified_sft.py \
  --training-task multitask_shared \
  --llm-backbone /mnt/data1/yuanming/pretrained_models/gemma-2-2b-it \
- --resume-llm /mnt/data1/yuanming/Code/Motion_Gen/Motion-Agent/ckpt/motionllm_w_shared_lora.pth \
- --exp-name exp_5_6-Gemma_2_2b-unified_sft-motionllm_init-full_tuning_clean_1015 \
+ --resume-llm /PATH/TO/YOUR/BASE_MODEL_CHECKPOINT.pth \
+ --exp-name EXP_NAME \
  --batch-size 4 \
  --epochs-start-val 0 \
  --epochs-val-interval 1000 \
- --epochs-unified 30 \
+ --epochs-unified 15 \
  --wo-scale-lr \
  --learning-rate 1e-5 \
  --val-tasks t2m \
