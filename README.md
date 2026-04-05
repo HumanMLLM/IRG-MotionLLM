@@ -54,7 +54,7 @@ Note that you can also train the base model on your own.
 In our work, we mainly conduct experiments on the HumanML3D and KIT-ML datasets. Please refer to [this link](https://github.com/EricGuo5513/HumanML3D) for motion dataset preparations.
 
 ### Prepare the Annotations of SFT and RL Data 
-We provide the examples of the annotations for each training stage. You can construct the SFT and RL dataset with the data engine introduced in our paper to train your own IRG-MotionLLM.
+We provide the examples of the annotations for each training stage ([HERE](https://github.com/HumanMLLM/IRG-MotionLLM/tree/main/SFT/HumanML3D/dataset/annotations_demo)). You can construct the SFT and RL dataset with the data engine introduced in our paper to train your own IRG-MotionLLM.
 
 ## 🔥Training
 You can train your own IRG-MotionLLM by using the following scripts. Do remember to replace ambiguous paths to the exact paths to your dataset and pre-trained models. 
