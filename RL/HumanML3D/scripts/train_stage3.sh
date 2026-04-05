@@ -16,11 +16,11 @@ if [ ! -n "$MASTER_ADDR" ] || [ ! -n "$MASTER_PORT" ] || [ ! -n "$RANK" ]; then
 fi
 
 export HF_ENDPOINT=https://hf-mirror.com
-export REPO_HOME="/mnt/data1/yuanming/Code/Cot-Mogen-V4"
+export REPO_HOME="/PATH/TO/YOUR/CODEBASE"
 echo "REPO_HOME: $REPO_HOME"
 
 # Change the data_paths and image_folders to your own data
-data_paths="/PATH/to/Your/dataset/HumanML3D/stage-3/combined_rl_data_clean.jsonl"
+data_paths="/PATH/to/Your/dataset/HumanML3D/stage-3/ANNOTATIONS.jsonl"
 motion_folders="/mnt/data1/yuanming/datasets/HumanML3D_guo/new_joint_vecs"
 context_modes="think_w_analysis_multi_round_gen_v3"
 model_path="/Path/to/gemma-2-2b-it"
