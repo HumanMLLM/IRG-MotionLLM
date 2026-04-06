@@ -143,7 +143,7 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WO
 
 ```
 
-### 🧠 Serving as a Reward Model
+### 🧠 Serving as a Reward Model (Preparing)
 IRG-MotionLLM can also serve as a reward model to evaluate the text-motion alignment. You can calculate the alignment score by using the following scripts.
 
 ```
