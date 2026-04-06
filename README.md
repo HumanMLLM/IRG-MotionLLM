@@ -61,6 +61,9 @@ We provide the examples of the annotations for each training stage ([HERE](https
 ## 🔥Training
 You can train your own IRG-MotionLLM by using the following scripts. Do remember to replace ambiguous paths to the exact paths to your dataset and pre-trained models. 
 
+**NOTE**: If you use the pretrained weights provided by [Motion-Agent](https://github.com/szqwu/Motion-Agent/tree/main) as the base model, you need to **rename the T2M-LoRA from 't2m' to 'shared' in advance.**
+
+
 ### Stage-1
 On stage-1, we train our model on eight related tasks to endow the model with the meta abilities of motion understanding, motion generation, motion assessment and motion refinement.
 ```
