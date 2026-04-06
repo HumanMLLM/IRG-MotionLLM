@@ -139,7 +139,7 @@ echo "NPROC_PER_NODE: $NPROC_PER_NODE"
 ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT test_unified.py --llm-ckpt PATH/TO/YOUR/MODEL --eval-task unified_mogen_cot_v3 --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag REPEAT_20
 
 # 2️⃣ ROBUSTNESS EVALUATION: Randomly Replace the first generated motion into a random one to evaluate the robustness of the model
-ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT test_unified.py --llm-ckpt PATH/TO/YOUR/MODEL  --eval-task unified_mogen_cot_v3_random_flip --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag RandomFlip_REPEAT_20  --dataset-return-neg-motion
+ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node $NPROC_PER_NODE --nnodes=$WORLD_SIZE --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT test_unified.py --llm-ckpt PATH/TO/YOUR/MODEL  --eval-task unified_mogen_cot_v3_random_flip --eval-repeat-times 20 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag RandomPerturbation_REPEAT_20  --dataset-return-neg-motion
 
 ```
 
