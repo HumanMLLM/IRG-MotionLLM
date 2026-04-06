@@ -65,7 +65,7 @@ You can train your own IRG-MotionLLM by using the following scripts. Do remember
 
 
 ### Stage-1
-On stage-1, we train our model on eight related tasks to endow the model with the meta abilities of motion understanding, motion generation, motion assessment and motion refinement.
+In stage-1, we train our model on eight related tasks to endow the model with the meta abilities of motion understanding, motion generation, motion assessment and motion refinement.
 ```
 cd SFT/HumanML3D
 bash train_stage1.sh
@@ -75,7 +75,7 @@ bash train_stage1.sh
 ```
 
 ### Stage-2
-On stage-2, we train our model on IRMoGen data to explicit interleave motion generation, asssessment and refinement.
+In stage-2, we train our model on IRMoGen data to explicit interleave motion generation, asssessment and refinement.
 ```
 cd SFT/HumanML3D
 bash train_stage2.sh
@@ -85,7 +85,7 @@ bash train_stage2.sh
 ```
 
 ### Stage-3
-On stage-3, we further enhance the IRMoGen ability via GRPO.
+In stage-3, we further enhance the IRMoGen ability via GRPO.
 ```
 cd RL/HumanML3D/src/mogen_r1/src
 bash train_stage3.sh
