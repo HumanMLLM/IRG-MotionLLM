@@ -5,7 +5,7 @@
 
 ## 📢News
 - [2026/03/31] The code for experiments on HumanML3D dataset is available. 
-- [2026/04/05] The pretrained models on HumanML3D dataset are available. 
+- [2026/04/05] The pretrained models on HumanML3D and KIT-ML datasets are available. 
 
 
 
@@ -20,10 +20,10 @@ Recent advances in motion-aware large language models have shown remarkable prom
 ## 🏠Model Zoo
 | Stages | Ckpt on HumanML3D | Ckpts on KIT-ML |
 |---------|----------|----------|
-| Base Model | [Motion-Agent Offical Link](https://github.com/szqwu/Motion-Agent/tree/main) |[Coming Soon](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
-| Stage-1 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) | [Coming Soon](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
-| Stage-2 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) |[Coming Soon](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
-| Stage-3 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) |[Coming Soon](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
+| Base Model | [Motion-Agent Offical Link](https://github.com/szqwu/Motion-Agent/tree/main) |[🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
+| Stage-1 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
+| Stage-2 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) |[🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
+| Stage-3 | [🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-HumanML3D) |[🤗Huggingface Link](https://huggingface.co/Lymann/IRG-MotionLLM-KITML) |
 
 
 
