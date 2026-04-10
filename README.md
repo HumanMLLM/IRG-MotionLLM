@@ -156,6 +156,10 @@ torchrun --nproc_per_node=1 test_alignment_score_calculation_s1.py --llm-ckpt PA
 torchrun --nproc_per_node=1 test_alignment_score_calculation_s2_s3.py --llm-ckpt PATH/TO/YOUR/STAGE-2_3-MODEL  --eval-task unified_mogen_cot_v3 --eval-repeat-times 1 --generation-mode think_w_analysis_multi_round_gen --w-flash-attention --prompt-w-response --eval-set test --merge-lora --eval-tag debug
 ```
 
+### Demo & Visualization
+Coming Soon
+
+
 ### ✒️ Citation
 
 If you find our work helpful for your research, please consider citing our work.   
