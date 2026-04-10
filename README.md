@@ -171,7 +171,7 @@ If you find our work helpful for your research, please consider citing our work.
 
 ## 📜 License
 
-- Our models and code are under the License CC-BY-NC-SA 4.0. Our code and models can only be used for research purpose.
+- Our models and code are under the License **CC-BY-NC-SA 4.0**. Our code and models can **only** be used for research purpose. Commercial use is not permitted.
 - Our models are developed on [Gemma2-2B-IT](https://huggingface.co/google/gemma-2-2b-it) under its [LICENSE](https://ai.google.dev/gemma/terms).
 
 ## Acknowledgement
