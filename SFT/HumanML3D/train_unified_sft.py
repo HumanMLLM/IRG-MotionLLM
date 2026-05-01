@@ -6,7 +6,6 @@ import numpy as np
 from dataset import dataset_TM_eval
 from dataset import dataset_unified_sft
 from dataset.data_processor import TextProcessor
-from utils.evaluation_cot import evaluation_test
 from datetime import timedelta
 import os
 from utils.word_vectorizer import WordVectorizer
