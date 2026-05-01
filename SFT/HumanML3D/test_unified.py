@@ -16,7 +16,6 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 import tempfile
 import json
 import sys
-from utils.evaluation_cot import evaluation_test
 from datetime import timedelta
 from tqdm import tqdm
 from utils.metrics import *
