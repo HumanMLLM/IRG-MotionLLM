@@ -1,4 +1,4 @@
-# IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement for Text-to-Motion Generation
+# IRG-MotionLLM: Interleaving Motion Generation, Assessment and Refinement for Text-to-Motion Generation (ECCV 2026)
 
 [paper link](https://arxiv.org/abs/2512.10730)
 
