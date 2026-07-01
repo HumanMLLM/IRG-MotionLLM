@@ -4,6 +4,7 @@
 
 
 ## 📢News
+- [2026/07/01] Our IRG-MotionLLM is accepted by ECCV2026🎉🎉 The camera-ready version paper is available [here](https://github.com/HumanMLLM/IRG-MotionLLM/blob/main/paper-v2.pdf).
 - [2026/03/31] The code for experiments on HumanML3D dataset is available. 
 - [2026/04/05] The pretrained models on HumanML3D and KIT-ML datasets are available. 
 
